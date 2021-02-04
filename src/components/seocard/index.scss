@@ -1,0 +1,5619 @@
+.social-cards{
+  // @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+  // @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+  // @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  @media (min-width:961px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  // @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+  // @media (min-width:1281px) { /* hi-res laptops and desktops */ }
+  li {
+    overflow: hidden;
+    display: inline-block;
+    margin: 20px 0 0 0;
+    // max-width: 300px;
+    @media (min-width:961px)  { 
+      /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+      padding: 0 0 0 20px;
+    }
+    &:first-child {
+      padding-left: 0;
+      margin-top: 0;
+      @media (min-width:961px)  { 
+        /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+        margin-top: 20px;
+
+      }
+    }
+    > h3 {
+      font-size: 1.6rem;
+      font-weight: normal;
+      text-transform: uppercase;
+      margin: 5px 0;
+    }
+  }
+}
+.page-report {
+  margin: 0 10px;
+  float: left;
+  width: 100%;
+  > h2 {
+    font-size: calc(10px + 2vmin);
+    line-height: 2rem;
+    @media (min-width:961px)  { 
+      /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    margin-bottom: 30px;
+    }
+  }
+  img {
+    @media (min-width:961px)  { 
+      /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+      max-width: 100%;
+    }
+  }
+}
+.robots-text {
+  p {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    margin-bottom: 10px;
+    &.learn-more {
+      font-size: 0.8rem;
+      margin-top: 0px;
+    }
+  }
+}
+
+.tag-errors p {
+  font-size: calc(10px + 1.5vmin);
+  line-height: 1.8rem;
+  margin: 10px 0;
+}
+  .facebook-card {
+    ._5kz- table {
+      table-layout: fixed
+    }
+    
+    ._5kz- table tr td:first-child {
+      width: 150px
+    }
+    
+    ._5kz- table tr td {
+      padding-left: 12px
+    }
+    
+    ._5k-0 {
+      margin-bottom: 12px
+    }
+    
+    ._5kz- pre {
+      background: #f5f6f7;
+      border: 1px solid #dddfe2;
+      color: #46a800;
+      display: block;
+      font-family: Menlo, Monaco, Andale Mono, Courier New, monospace;
+      overflow: auto;
+      word-wrap: normal
+    }
+    
+    ._5kz- span {
+      word-wrap: break-word
+    }
+    
+    ._5ndz {
+      padding: 12px
+    }
+    
+    ._5kz- #debugNotice {
+      border-bottom: 1px solid #d1d2d5;
+      border-left: 0;
+      border-radius: 3px 0 0 0;
+      border-right: 0;
+      border-top: 0
+    }
+    
+    ._4jxl {
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding: 0 16px;
+      width: 1024px
+    }
+    
+    ._2syv {
+      width: 527px
+    }
+    
+    ._2syv ._20pq {
+      margin-left: 0;
+      margin-right: 0
+    }
+    
+    ._2syv._2syv ._20pq ._29_4 {
+      border-left: 1px solid #dadde1;
+      border-right: 1px solid #dadde1
+    }
+    
+    table._50-p {
+      table-layout: fixed
+    }
+    
+    tr td._2wq4,
+    tr td._2wq5 {
+      border: none;
+      padding: 16px;
+      vertical-align: top
+    }
+    
+    tr td._2wq4 {
+      color: #4b4f56;
+      font-size: 14px
+    }
+    
+    tr td._2wq5,
+    ._4si_ {
+      width: 150px
+    }
+    
+    tbody tr._23m0:hover>td._2wq5,
+    tbody tr._23m0:hover>td._2wq4 {
+      background-color: inherit
+    }
+    
+    ._2wq6 {
+      line-height: 22px
+    }
+    
+    ._23m1 {
+      margin-right: 10px;
+      position: relative;
+      top: 5px
+    }
+    
+    ._4sj7 .hiddenItem:nth-child(even) {
+      background-color: #f5f6f7
+    }
+    
+    ._4sj8 {
+      border-top: 1px solid #e5e5e5;
+      cursor: pointer
+    }
+    
+    ._23m2 {
+      overflow-x: auto
+    }
+    
+    ._56lr {
+      cursor: pointer;
+      margin: 8px
+    }
+    
+    ._5fmn {
+      background-color: #fff;
+      margin-top: -10px;
+      padding: 64px 0
+    }
+    
+    ._5fmo {
+      color: #4b4f56;
+      padding-left: 32px
+    }
+    
+    ._5fmo h1 {
+      color: #4b4f56;
+      font-size: 18px
+    }
+    
+    ._64dt {
+      margin: 0 auto;
+      width: 1024px
+    }
+    
+    ._7000 {
+      background-color: #fff;
+      margin-bottom: 12px;
+      padding: 12px
+    }
+    
+    ._7001 {
+      box-sizing: border-box;
+      margin: 0 auto;
+      margin-bottom: 12px;
+      padding: 0 16px;
+      width: 1024px
+    }
+    
+    ._rls {
+      flex: 1 1 auto
+    }
+    
+    html input._rlt {
+      border-radius: 2px;
+      box-sizing: border-box;
+      height: 36px;
+      width: 100%
+    }
+    
+    ._5f5l {
+      display: flex;
+      position: relative
+    }
+    
+    ._5f5m {
+      line-height: 100%;
+      text-align: center
+    }
+    
+    ._5f5n {
+      background-color: rgba(255, 255, 255, .8)
+    }
+    
+    ._5f5o {
+      display: none;
+      left: 50%;
+      margin-left: -16px;
+      margin-top: -16px;
+      position: absolute;
+      top: 50%
+    }
+    
+    ._5f5l.async_saving ._5f5m,
+    ._5f5l.async_saving ._5f5n {
+      bottom: 0;
+      display: block;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+    
+    ._5f5l.async_saving ._5f5o {
+      display: block
+    }
+    
+    ._183n {
+      background-color: #fff;
+      margin-bottom: 12px;
+      padding: 12px
+    }
+    
+    ._2mgu {
+      border-bottom: 1px solid #e5e5e5;
+      margin-bottom: 12px
+    }
+    
+    ._183o {
+      color: #7f7f7f;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: bold;
+      transition: all .2s ease-in-out
+    }
+    
+    ._183o:hover,
+    ._183p {
+      box-shadow: inset 0 -3px #4080ff;
+      color: #4080ff;
+      text-decoration: none
+    }
+    
+    ._6vqo {
+      margin: 44px 0 32px;
+      text-align: center
+    }
+    
+    ._6vqp {
+      margin: 16px auto 0
+    }
+    
+    ._6_an {
+      background-color: #fff
+    }
+    
+    ._78uo {
+      border-bottom: 1px solid #bec3c9;
+      border-top: 1px solid #bec3c9;
+      margin-top: 100px;
+      padding: 20px;
+      text-align: left;
+      width: 920px
+    }
+    
+    ._6kv {
+      margin: 6px 0 0
+    }
+    
+    ._52c6 {
+      border: 1px solid;
+      border-color: #EBEDF0 #e9ebee #d1d1d1;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+    
+    ._1xb9 {
+      top: calc(100% - 52px)
+    }
+    
+    ._52c6._5oi5 {
+      border: none;
+      height: 77px;
+      outline: none;
+      top: 300px
+    }
+    
+    ._5vb_ ._dcs .__c_:after {
+      border-color: rgba(0, 0, 0, .1)
+    }
+    
+    ._5vb_ ._dcs:hover .__c_:after {
+      border-color: rgba(0, 0, 0, .15)
+    }
+    
+    ._5vb_ ._64lx._dcs:hover .__c_:after {
+      background-color: rgba(29, 33, 41, .04)
+    }
+    
+    ._1zpr ._52c6,
+    ._5vb_ ._52c6,
+    ._5vb_ ._dcs:hover ._52c6,
+    ._64lx ._52c6,
+    ._5tmf ._52c6 {
+      border: none
+    }
+    
+    ._dcs {
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 1px 4px rgba(0, 0, 0, .1);
+      position: relative
+    }
+    
+    ._79gu {
+      margin-left: -12px;
+      margin-right: -12px;
+      position: relative
+    }
+    
+    ._dcs._4_w4 {
+      max-width: -webkit-max-content;
+      max-width: max-content
+    }
+    
+    ._5vb_ ._dcs {
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, .1) inset, 0 1px 1px rgba(0, 0, 0, .05)
+    }
+    
+    ._5vb_.webkit ._dcs {
+      box-shadow: 0 0 0 1.5px rgba(0, 0, 0, .1) inset, 0 1px 1px rgba(0, 0, 0, .05)
+    }
+    
+    ._5vb_ ._4_w4:hover {
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 1px 1px rgba(0, 0, 0, .05)
+    }
+    
+    ._5vb_.webkit ._4_w4:hover {
+      box-shadow: 0 0 0 1.5px rgba(0, 0, 0, .15) inset, 0 1px 1px rgba(0, 0, 0, .05)
+    }
+    
+    ._4_w4:hover {
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 1px 6px rgba(0, 0, 0, .15)
+    }
+    
+    ._64lx._dcs,
+    ._5vb_ ._64lx._dcs,
+    ._5vb_.webkit ._64lx._dcs {
+      border: none;
+      box-shadow: none
+    }
+    
+    ._64lx._4_w4:hover,
+    ._5vb_ ._64lx._4_w4:hover,
+    ._5vb_.webkit ._64lx._4_w4:hover {
+      border: none;
+      box-shadow: none
+    }
+    
+    ._3b6i ._64lx._dcs,
+    ._5vb_ ._3b6i ._64lx._dcs,
+    ._5vb_.webkit ._3b6i ._64lx._dcs {
+      border-bottom: none
+    }
+    
+    ._dcs .__c_:after {
+      border-color: rgba(0, 0, 0, .098) rgba(0, 0, 0, .149) rgba(0, 0, 0, .231)
+    }
+    
+    ._64lx._dcs .__c_:after {
+      border: none;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      box-shadow: inset 1px 0 0 0 rgba(0, 0, 0, .1), inset -1px 0 0 0 rgba(0, 0, 0, .1), inset 0 1px 0 0 rgba(0, 0, 0, .1), inset 0 -1px 0 0 rgba(0, 0, 0, .1)
+    }
+    
+    ._64lx._20pq._dcs .__c_:after {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, .1), inset 0 -1px 0 0 rgba(0, 0, 0, .1)
+    }
+    
+    ._64lx._23bq._dcs .__c_:after {
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 0;
+      box-shadow: inset 1px 0 0 0 rgba(0, 0, 0, .1), inset 0 1px 0 0 rgba(0, 0, 0, .1), inset 0 -1px 0 0 rgba(0, 0, 0, .1), inset -1px 0 0 0 rgba(0, 0, 0, .1)
+    }
+    
+    ._23bq._64lx._20pq._dcs .__c_:after {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, .1), inset 0 -1px 0 0 rgba(0, 0, 0, .1), inset -1px 0 0 0 rgba(0, 0, 0, .1)
+    }
+    
+    ._5vb_ ._dcs .__c_,
+    ._5vb_ ._6l- {
+      background-color: #fff
+    }
+    
+    ._dcs:hover ._52c6 {
+      border-color: #e9ebee #dadada #ccc
+    }
+    
+    ._64lx._2bf7._dcs:hover ._52c6,
+    ._64lx ._52c6:hover {
+      background-color: rgba(29, 33, 41, .04)
+    }
+    
+    ._64lx._dcs:active ._52c6 {
+      background-color: rgba(29, 33, 41, .08)
+    }
+    
+    ._170x ._5v3q ._dcs {
+      box-shadow: 0 0 0 0;
+      margin: 0 -12px
+    }
+    
+    ._170x ._5v3q ._4_w4:hover {
+      box-shadow: 0 0 0 0
+    }
+    
+    ._5vb_ ._3-a6 ._dcs,
+    ._3-a6 ._dcs {
+      box-shadow: none
+    }
+    
+    ._3j2_ .__c_ {
+      height: 175px
+    }
+    
+    ._6m2 {
+      background-color: #fff;
+      overflow: hidden;
+      position: relative;
+      z-index: 0
+    }
+    
+    .fbInternVideoPreview ._6m2 {
+      z-index: 12
+    }
+    
+    ._2lhm ._6m2._6m2 {
+      background-color: transparent
+    }
+    
+    ._3906._6m2 {
+      overflow: visible
+    }
+    
+    ._3906._6m2 ._3907 {
+      overflow: hidden;
+      position: relative
+    }
+    
+    ._6m3 {
+      font-size: 12px;
+      height: 132px;
+      margin: 10px 12px;
+      position: relative
+    }
+    
+    ._59ap ._6m3._--6._k-h {
+      font-size: 12px;
+      height: 100px;
+      margin: 10px 12px;
+      position: relative
+    }
+    
+    ._59ap ._6m3._--6._7eb5 {
+      font-size: 12px;
+      height: 77px;
+      margin: 10px 12px;
+      position: relative
+    }
+    
+    ._6m3._5oi5 {
+      height: 100%;
+      margin: 0 12px 0 12px
+    }
+    
+    ._5oi5 ._522u {
+      z-index: 1
+    }
+    
+    ._5oi5 ._6m6,
+    ._5oi5 ._6m7 {
+      text-overflow: ellipsis
+    }
+    
+    ._51cc ._6m3,
+    ._3eqz._5cwb._51cc ._6m3 {
+      height: 215px
+    }
+    
+    ._5ej3 ._6m3 {
+      height: 88px
+    }
+    
+    ._4y_8 ._6m3 {
+      height: 142px;
+      margin: 6px 12px
+    }
+    
+    ._59ap ._6m3 {
+      height: auto;
+      margin: 10px 12px;
+      max-height: 100px
+    }
+    
+    ._59ap ._6m3._649o,
+    ._59ap._41u- ._6m3._649o {
+      max-height: none
+    }
+    
+    ._649o {
+      display: flex;
+      flex-flow: column
+    }
+    
+    ._649o ._59tj {
+      order: 0
+    }
+    
+    ._649o ._2dbt {
+      margin-bottom: 0;
+      order: 1
+    }
+    
+    ._649o ._6m7 {
+      order: 2
+    }
+    
+    ._59ap ._649o {
+      margin-top: 0
+    }
+    
+    ._59ap._6m4 ._649o ._59tj,
+    ._5cwb._6m4 ._649o ._59tj {
+      margin-top: 0
+    }
+    
+    ._649o ._2dbs {
+      padding-top: 3px
+    }
+    
+    ._pb2 ._6m3 {
+      height: 76px;
+      margin: 6px 12px
+    }
+    
+    ._59ap._41u- ._6m3 {
+      max-height: 110px
+    }
+    
+    ._3eqz._59ap._41u- ._6m3 {
+      max-height: 190px
+    }
+    
+    ._6m2.exploded .lfloat {
+      float: none
+    }
+    
+    ._6m2.exploded ._6m3 {
+      float: none;
+      height: auto;
+      margin-bottom: 12px
+    }
+    
+    ._5cwb._5cwb._5cwb,
+    ._6m4._6m4._6m4 {
+      max-width: none
+    }
+    
+    ._37iz._37iz._37iz {
+      max-width: -webkit-max-content;
+      max-width: max-content
+    }
+    
+    ._6m4 ._6m3 {
+      height: auto;
+      margin-bottom: 9px
+    }
+    
+    ._6ks {
+      line-height: 0;
+      position: relative;
+      z-index: 1
+    }
+    
+    ._6ks a:focus {
+      outline: none
+    }
+    
+    ._63yw {
+      position: relative
+    }
+    
+    ._5uyo {
+      position: static;
+      z-index: auto
+    }
+    
+    ._6ks .music_button_img_wrap {
+      z-index: 1
+    }
+    
+    ._6m5 {
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      display: block;
+      height: 158px;
+      width: 158px
+    }
+    
+    ._51cc ._6m5 {
+      height: 237px;
+      width: 158px
+    }
+    
+    ._5ej3 ._6m5 {
+      height: 40px;
+      width: 40px
+    }
+    
+    ._51cc .__fq {
+      top: 206px
+    }
+    
+    ._6m2:hover ._6m5 {
+      color: rgba(0, 0, 0, .15)
+    }
+    
+    ._6m6,
+    ._6m6._6m6._6m6._6m6 {
+      font-family: Georgia, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      margin-bottom: 5px;
+      max-height: 110px;
+      word-wrap: break-word
+    }
+    
+    ._5cwb._359m:not(._3eqz) ._6m6 {
+      padding-right: 10px
+    }
+    
+    ._pb2 ._6m6,
+    ._pb2 ._6m6._6m6._6m6._6m6 {
+      font-size: 16px;
+      line-height: 20px
+    }
+    
+    ._6m6,
+    ._6m6 a {
+      text-decoration: none;
+      transition: color .1s ease-in-out
+    }
+    
+    ._6m6 a {
+      color: #1d2129
+    }
+    
+    ._6m2:hover ._275z {
+      color: #1d2129
+    }
+    
+    ._6m2 ._6jx ._6m6 a {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 16px
+    }
+    
+    ._6m2 ._6jx ._6m6._6m6 {
+      margin-bottom: 0
+    }
+    
+    ._6m4._6m8 ._6m6 {
+      margin-bottom: 0
+    }
+    
+    ._6m8 ._6m6 {
+      max-height: 88px
+    }
+    
+    ._6m6 ._w_i {
+      margin-right: 5px;
+      position: relative;
+      top: 3px
+    }
+    
+    ._6m7._6m7._6m7._6m7 {
+      font-family: Helvetica, Arial, sans-serif;
+      line-height: 16px;
+      max-height: 80px;
+      overflow: hidden
+    }
+    
+    ._6m7 a,
+    ._20l4 a {
+      color: inherit;
+      position: relative;
+      z-index: 1
+    }
+    
+    ._6m7 a:hover {
+      cursor: pointer;
+      text-decoration: none
+    }
+    
+    ._4rtc ._6m7 {
+      text-overflow: ellipsis;
+      white-space: nowrap
+    }
+    
+    ._59ap ._59tj {
+      padding-top: 9px;
+      position: relative
+    }
+    
+    ._59ap .__fq {
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%)
+    }
+    
+    ._59ap .__fq .__fr {
+      left: 20px
+    }
+    
+    ._59ap._6m8 ._59tj,
+    ._41u- ._6m3 ._59tj,
+    ._170x ._59ap ._59tj {
+      padding-top: 5px
+    }
+    
+    ._j_2 ._41u- ._6m3 ._59tj {
+      padding-top: 9px
+    }
+    
+    ._170x ._59ap._6m8 ._59tj {
+      padding-top: 21px
+    }
+    
+    ._59ap._6m8 ._6jx ._59tj {
+      padding-top: 3px
+    }
+    
+    ._5cwb ._59tj {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0
+    }
+    
+    ._5cwb ._4eyp ._522u {
+      bottom: 0;
+      position: absolute;
+      right: 0
+    }
+    
+    ._5cwb.exploded ._59tj {
+      margin-top: 9px;
+      position: static
+    }
+    
+    ._5cwb._6m4 ._59tj {
+      margin-top: 10px;
+      position: relative
+    }
+    
+    ._59ap ._59tj a:hover {
+      text-decoration: none
+    }
+    
+    ._5cwb._6m4._6m8 ._59tj {
+      margin-top: 5px
+    }
+    
+    ._6m3 ._6mb,
+    ._6m3 ._d5q,
+    ._6m3 ._59tj ._6mb a {
+      color: #90949c
+    }
+    
+    ._6m3 ._6mb {
+      font-size: 11px;
+      line-height: 11px;
+      text-transform: uppercase
+    }
+    
+    ._6m3 ._1t62 {
+      color: #606770;
+      font-size: 12px
+    }
+    
+    ._6m3 ._d5q {
+      font-size: 12px;
+      line-height: 12px
+    }
+    
+    ._6m3 ._5x4b {
+      margin: -1px 1px -4px 0
+    }
+    
+    ._41u- ._6m3 ._6mb,
+    ._170x ._41u- ._6m3 ._6mb,
+    ._170x ._6m3 ._6mb {
+      padding-top: 13px
+    }
+    
+    ._j_2 ._41u- ._6m3 ._6mb {
+      padding-top: 0
+    }
+    
+    ._41u-._61bj._6m4 ._6m3 ._6mb {
+      padding-top: 0
+    }
+    
+    ._41u- ._6m3 ._6mb.ellipsis {
+      padding-right: 8px
+    }
+    
+    .Locale_zh_HK ._6m3 ._6mb,
+    .Locale_zh_TW ._6m3 ._6mb,
+    .Locale_zh_CN ._6m3 ._6mb {
+      line-height: 12px
+    }
+    
+    ._59tj ._522u {
+      padding-left: 10px
+    }
+    
+    ._522u {
+      position: relative
+    }
+    
+    ._41u- ._522u {
+      bottom: -4px;
+      z-index: 2
+    }
+    
+    ._pb2._41u- ._522u {
+      bottom: -2px
+    }
+    
+    ._59ap._41u- ._522u {
+      bottom: 0
+    }
+    
+    ._59ap._41u- ._522u,
+    ._6m4._41u- ._522u {
+      position: relative
+    }
+    
+    ._4eyp ._522u {
+      margin-top: -8px
+    }
+    
+    ._59ap ._2r3x>._ohe {
+      width: 100%
+    }
+    
+    ._170x ._6m2 {
+      margin: 0 -12px
+    }
+    
+    ._170x ._6m3 {
+      border-bottom: 1px solid #e9e9e9;
+      margin-bottom: 0;
+      padding-bottom: 10px
+    }
+    
+    ._hye ._6m7,
+    ._170x ._6m7 {
+      height: 16px;
+      text-overflow: ellipsis;
+      white-space: nowrap
+    }
+    
+    ._hye ._6m6,
+    ._170x ._6m6 {
+      height: 22px;
+      text-overflow: ellipsis
+    }
+    
+    ._5tmf ._6m8 ._2r3x>._ohe {
+      width: 100%
+    }
+    
+    ._2r3x ._4g6m {
+      background-color: rgba(0, 0, 0, .4);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      height: 30px;
+      left: 50%;
+      margin-left: -40px;
+      margin-top: -15px;
+      opacity: 0;
+      padding: 0;
+      position: absolute;
+      top: 70%;
+      width: 30px;
+      z-index: 2
+    }
+    
+    ._2r3x:hover ._4g6m {
+      opacity: 1
+    }
+    
+    ._2r3x:hover ._4g6m:hover {
+      transform: scale(1.1)
+    }
+    
+    ._2r3x ._1nu {
+      // background-image: url(/rsrc.php/v3/y3/r/DvLHjzkwtsH.png);
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: 0 -327px;
+      height: 18px;
+      margin: 6px 6px;
+      width: 18px
+    }
+    
+    ._2r3x ._4g6n {
+      background-color: rgba(0, 0, 0, .4);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      height: 30px;
+      left: 50%;
+      margin-left: 10px;
+      margin-top: -15px;
+      opacity: 0;
+      padding: 0;
+      position: absolute;
+      top: 70%;
+      width: 30px;
+      z-index: 2
+    }
+    
+    ._2r3x:hover ._4g6n {
+      opacity: 1
+    }
+    
+    ._2r3x:hover ._4g6n:hover {
+      transform: scale(1.1)
+    }
+    
+    ._2r3x ._1nw {
+      // background-image: url(/rsrc.php/v3/y3/r/DvLHjzkwtsH.png);
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: 0 -306px;
+      height: 18px;
+      margin: 6px 6px;
+      width: 18px
+    }
+    
+    ._6m3 ._59tj ._6mb ._2iv2 {
+      color: #3b5998;
+      position: relative;
+      text-decoration: none;
+      z-index: 5
+    }
+    
+    ._6m3 ._59tj ._6mb ._2iv2:hover {
+      text-decoration: underline
+    }
+    
+    ._6m3 ._59tj ._5tc6 {
+      color: #90949c;
+      margin-top: 5px
+    }
+    
+    ._6m3 ._59tj ._1cen {
+      padding-left: 10px;
+      padding-top: 5px
+    }
+    
+    ._6m3 ._59tj ._3vkw {
+      float: left;
+      margin-right: 5px
+    }
+    
+    ._41u- ._6m3 ._1cen ._6mb {
+      padding-top: 0
+    }
+    
+    ._1cep {
+      margin-bottom: 5px
+    }
+    
+    ._7mgo {
+      display: inline-block;
+      margin-bottom: 3px;
+      padding-left: 10px;
+      vertical-align: bottom
+    }
+    
+    ._41u- ._6m3 ._59tj._2616 {
+      padding-top: 0
+    }
+    
+    ._2iv3 {
+      border-top: 1px solid #e5e5e5;
+      height: auto;
+      margin-left: 12px;
+      margin-right: 12px;
+      padding-top: 6px;
+      position: relative;
+      width: auto;
+      z-index: 5
+    }
+    
+    ._2iv4 {
+      float: left;
+      font-family: Helvetica, Arial, sans-serif;
+      margin-bottom: 4px;
+      margin-top: 4px;
+      max-width: 75%;
+      width: auto
+    }
+    
+    ._2iv5 {
+      float: right;
+      margin-bottom: 7px;
+      width: auto
+    }
+    
+    ._5qqr ._6m6,
+    ._5qqr ._6m7 {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 100%
+    }
+    
+    ._2ikp {
+      border-top: solid 1px #dddfe2;
+      margin: 10px 12px;
+      padding-top: 11px
+    }
+    
+    ._2ikq {
+      color: #90949c;
+      font-size: 12px;
+      padding: 14px 14px 11px 12px
+    }
+    
+    ._2iku {
+      color: #4b4f56;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      margin-top: 16px;
+      position: relative;
+      text-transform: uppercase;
+      z-index: 10
+    }
+    
+    ._2iku a {
+      color: #4b4f56;
+      z-index: 10
+    }
+    
+    ._3-a6 ._pb2 ._2r3x {
+      border: 1px solid #ebedf0;
+      border-radius: 18px;
+      margin-top: 2px;
+      overflow: hidden
+    }
+    
+    ._3-a6._1blz ._pb2 ._2r3x {
+      border: none;
+      margin-top: 0
+    }
+    
+    ._3-a6._1blz ._pb2 ._2r3x ._3ekx {
+      background-color: #f5f6f7;
+      border: 1px solid #dddfe2;
+      border-left: none;
+      border-radius: 0 18px 18px 0
+    }
+    
+    ._3-a6._65_9 ._pb2 ._2r3x ._3ekx {
+      background-color: #fff
+    }
+    
+    ._3-a6._4zau ._pb2 ._2r3x ._3ekx {
+      background-color: #282828
+    }
+    
+    ._3-a6._1blz ._pb2._6m4 ._2r3x ._3ekx {
+      border-left: 1px solid #dddfe2;
+      border-radius: 18px
+    }
+    
+    ._3-a6 ._5pcr ._pb2 ._2r3x {
+      border: none;
+      border-radius: 0;
+      margin-top: 0;
+      overflow: hidden
+    }
+    
+    ._3eqz {
+      border-radius: 5px
+    }
+    
+    ._3eqw {
+      border-radius: 0;
+      margin-left: -12px;
+      margin-right: -12px
+    }
+    
+    ._3b6i ._3eqw {
+      margin-left: -11px;
+      margin-right: -11px
+    }
+    
+    ._5p9g ._3eqw,
+    ._3-a6 ._3eqw {
+      margin-left: 0;
+      margin-right: 0
+    }
+    
+    ._3b6i ._3eqw {
+      margin-bottom: -11px
+    }
+    
+    ._6m2._3eqz._3eqw {
+      max-width: none
+    }
+    
+    ._3eqz {
+      background-color: #f2f3f5
+    }
+    
+    ._3eqz._267a {
+      background-color: #fff
+    }
+    
+    ._3eqz._5cwb ._6m3 {
+      display: flex;
+      flex-direction: column;
+      height: 136px;
+      justify-content: center
+    }
+    
+    ._3eqz._6m4 ._6m3,
+    ._3eqz._5ej3._6m4 ._6m3 {
+      height: auto;
+      max-height: 136px
+    }
+    
+    .UFICommentContent ._3eqz._5cwb ._6m3 {
+      height: 76px
+    }
+    
+    .UFICommentContent ._3eqz._6m4._5cwb ._6m3 {
+      height: auto
+    }
+    
+    ._3ekx {
+      position: relative
+    }
+    
+    ._3eqz ._3ekx {
+      border-bottom: 1px solid #dddfe2;
+      border-right: 1px solid #dddfe2;
+      margin: 0;
+      padding: 10px 12px;
+      position: relative
+    }
+    
+    ._3eqz._59ap ._3ekx {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-left: 1px solid #dddfe2
+    }
+    
+    ._3eqz._5cwb ._3ekx {
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px
+    }
+    
+    ._3eqz._3eqw._5cwb ._3ekx,
+    ._3eqz._3eqw ._3ekx {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      border-left: none;
+      border-right: none;
+      border-top-right-radius: 0
+    }
+    
+    ._3eqz._5cwb ._3ekx {
+      border-top: 1px solid #dddfe2
+    }
+    
+    ._3b6i ._3eqz._3eqw ._3ekx {
+      border-bottom: none
+    }
+    
+    ._3b6i ._5cwb._3eqz ._3ekx {
+      padding-bottom: 10px
+    }
+    
+    ._3b6i ._5cwb._3eqz._3eqw ._3ekx {
+      padding-bottom: 11px
+    }
+    
+    ._3-a6 ._3eqz ._3ekx {
+      border: none
+    }
+    
+    ._3eqz ._3ekx:empty {
+      padding: 0
+    }
+    
+    ._3eqz ._44ae {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end
+    }
+    
+    ._3eqz ._6m3 {
+      margin: 0
+    }
+    
+    ._3eqz._59ap ._6m5,
+    ._3eqz._59ap ._6m5 .img {
+      height: 100%;
+      width: 100%
+    }
+    
+    ._3eqz._5cwb._51cc._6m4 ._6m3,
+    ._3eqz._6m4 ._6m3 {
+      height: auto
+    }
+    
+    ._3eqz._5ej3 ._6m3 {
+      height: 117px
+    }
+    
+    ._3eqz ._44ae ._6m3 {
+      flex-grow: 1;
+      overflow-x: auto
+    }
+    
+    .ie11 ._3eqz ._44ae ._6m3 {
+      flex: 1;
+      max-width: 95%;
+      width: 45%
+    }
+    
+    @supports (-ms-ime-align: auto) {
+      ._3eqz ._44ae ._6m3 {
+        flex: 1;
+        max-width: 95%;
+        width: 45%
+      }
+    }
+    
+    ._3eqz._5cwb ._6m3 ._59tj {
+      position: static
+    }
+    
+    ._3eqz ._6m3 ._59tj {
+      color: #606770;
+      flex-shrink: 0;
+      font-size: 12px;
+      line-height: 16px;
+      overflow: hidden;
+      padding: 0;
+      text-overflow: ellipsis;
+      text-transform: uppercase;
+      white-space: nowrap
+    }
+    
+    ._3eqz._41u- ._6m3 ._6mb,
+    ._3eqz._41u- ._6m3 ._59tj ._1t62 {
+      padding: 0
+    }
+    
+    ._3eqz._5cwb._6m4._6m8 ._59tj,
+    ._3eqz._5cwb._6m4 ._59tj {
+      margin-top: 2px
+    }
+    
+    ._3eqz ._6m3 ._59tj ._5tc6 {
+      color: #606770;
+      margin-top: 3px
+    }
+    
+    #facebook ._3eqz ._6m3 ._6m6 {
+      font-family: inherit;
+      font-size: 16px;
+      line-height: 20px;
+      margin: 3px 0 0;
+      padding-top: 2px
+    }
+    
+    #facebook ._3eqz._2rk1 ._6m3 ._6m6 {
+      font-weight: 600;
+      overflow: hidden
+    }
+    
+    ._3eqz ._6m3 ._6m7._6m7,
+    ._3eqz ._6m3 ._6m7._6m7 .fsm,
+    ._3eqz ._6m3 ._6m7._6m7 .fwn,
+    ._3eqz ._6m3 ._6m7._6m7 .fcg,
+    ._3eqz ._6m3 ._20l4._20l4,
+    ._3eqz ._6m3 ._20l4._20l4 .fsm,
+    ._3eqz ._6m3 ._20l4._20l4 .fwn,
+    ._3eqz ._6m3 ._20l4._20l4 .fcg {
+      color: #606770;
+      font-size: 14px;
+      line-height: 20px;
+      word-break: break-word
+    }
+    
+    ._3eqz ._6m3 ._6m7._6m7 a:hover,
+    ._3eqz ._6m3 ._20l4._20l4 a:hover {
+      text-decoration: underline
+    }
+    
+    ._3eqz ._6m3 ._6m7._6m7,
+    ._3eqz ._6m3 ._20l4._20l4 {
+      margin-top: 3px
+    }
+    
+    ._3eqz ._44af {
+      align-self: center;
+      padding-left: 18px
+    }
+    
+    ._3n1j ._6m6,
+    ._3n1j ._6m7 {
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: normal
+    }
+    
+    ._3n1j ._6m6 {
+      -webkit-line-clamp: 2
+    }
+    
+    ._3n1j ._6m7 {
+      -webkit-line-clamp: 1
+    }
+    
+    ._3n1j ._6m6:empty~._6m7 {
+      -webkit-line-clamp: 2
+    }
+    
+    ._3n1j ._3n1k {
+      max-height: 46px;
+      overflow: hidden
+    }
+    
+    ._6my {
+      color: #999;
+      font-size: 10px;
+      text-transform: uppercase
+    }
+    
+    ._8cr {
+      color: #90949c;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      overflow: hidden;
+      padding: 6px 12px 0;
+      width: 318px
+    }
+    
+    ._1ui2 {
+      display: inline;
+      text-overflow: ellipsis;
+      text-transform: uppercase
+    }
+    
+    ._8cs {
+      float: right;
+      margin: 0 3px 0 0
+    }
+    
+    ._8cs a {
+      color: #4267b2
+    }
+    
+    ._8cs i {
+      display: none
+    }
+    
+    ._vx:hover {
+      text-decoration: none
+    }
+    
+    ._1ui3 {
+      height: 100px;
+      padding-top: 12px;
+      width: 140px
+    }
+    
+    ._1ui3 img {
+      height: 100px;
+      width: 140px
+    }
+    
+    ._28xr {
+      border: solid 1px rgba(0, 0, 0, .1);
+      height: 98px;
+      margin-top: 12px;
+      position: absolute;
+      width: 138px
+    }
+    
+    ._1ui4 {
+      background-color: #000;
+      height: 80px;
+      margin-top: 12px;
+      text-align: center;
+      width: 140px
+    }
+    
+    ._1ui5 {
+      padding-bottom: 12px;
+      position: relative
+    }
+    
+    ._1ui5 ._4w0x {
+      opacity: 0;
+      position: absolute;
+      right: 0;
+      top: 8px
+    }
+    
+    ._1ui5 ._4cuw {
+      opacity: 1;
+      position: absolute;
+      right: 3px;
+      top: 18px
+    }
+    
+    ._1ui5 ._4w0x:focus {
+      box-shadow: none
+    }
+    
+    ._1ui5:hover ._4w0x {
+      opacity: 1
+    }
+    
+    ._1ui5 ._3f-d {
+      padding-top: 10px
+    }
+    
+    ._1ui5 ._3f-d td {
+      padding: 0 10px 5px 0
+    }
+    
+    ._1ui5 ._3f-d table {
+      width: 100%
+    }
+    
+    ._5h55 ._1ui6 {
+      -webkit-box-orient: vertical;
+      color: #1d2129;
+      display: -webkit-box;
+      font-family: Georgia, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+      font-size: 14px;
+      -webkit-line-clamp: 2;
+      line-height: 20px;
+      max-height: 40px;
+      overflow: hidden;
+      padding: 12px 0 0 12px;
+      text-overflow: ellipsis;
+      white-space: normal;
+      width: 290px
+    }
+    
+    ._5h55 ._5sbf:hover {
+      text-decoration: underline
+    }
+    
+    ._5h55 ._1ui7 {
+      -webkit-box-orient: vertical;
+      color: #4b4f56;
+      display: -webkit-box;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      -webkit-line-clamp: 2;
+      line-height: 16px;
+      margin: 0;
+      max-height: 32px;
+      overflow: hidden;
+      padding: 4px 0 0 12px;
+      text-overflow: ellipsis;
+      white-space: normal;
+      width: 290px
+    }
+    
+    ._3658._5h55 ._1ui7,
+    ._3658._5h55 ._1ui6 {
+      width: 440px
+    }
+    
+    ._3658._5h55 ._8cr {
+      width: 458px
+    }
+    
+    ._5sbg {
+      background-color: #ebedf0;
+      border-radius: 2px;
+      color: #90949c;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      -webkit-font-smoothing: antialiased;
+      font-weight: bold;
+      line-height: 14px;
+      margin-right: 2px;
+      padding: 1px 4px;
+      text-transform: uppercase
+    }
+    
+    ._1d8v {
+      background: #fff;
+      border: 1px solid;
+      border-color: #EBEDF0 #dfe0e4 #d0d1d5;
+      border-radius: 3px;
+      margin-bottom: 10px;
+      padding: 12px
+    }
+    
+    ._5oi5 ._6lz {
+      padding-top: 8px
+    }
+    
+    ._6l- {
+      position: relative
+    }
+    
+    ._6l-:after {
+      border: 1px solid rgba(0, 0, 0, .1);
+      bottom: 0;
+      content: '';
+      left: 0;
+      pointer-events: none;
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+    
+    ._64lx ._6l-:after {
+      border: none
+    }
+    
+    ._3-a6 ._2lhm ._6l-:after {
+      border: 1px solid rgba(0, 0, 0, .1);
+      border-radius: 18px 0 0 18px
+    }
+    
+    ._6l- img {
+      vertical-align: bottom
+    }
+    
+    ._170x ._6l-:after {
+      border-left: 0;
+      border-right: 0
+    }
+    
+    ._6nm {
+      color: #1d2129;
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 18px;
+      max-width: 480px
+    }
+    
+    ._6nm a.profileLink,
+    ._6nm a._58cn {
+      color: #1d2129;
+      font-weight: bold
+    }
+    
+    ._6nm ._58cn ._58cl {
+      color: #444950;
+      font-weight: normal
+    }
+    
+    ._6nm a.weakReference {
+      color: #7f7f7f;
+      display: inline-block
+    }
+    
+    ._6nm a.weakReference i {
+      margin-right: 3px
+    }
+    
+    ._6nm {
+      margin-bottom: 3px;
+      margin-top: 2px;
+      word-wrap: break-word
+    }
+    
+    ._6nm p {
+      margin: 6px 0
+    }
+    
+    ._6nm p:first-child {
+      margin-top: 0
+    }
+    
+    ._6nm p:last-child {
+      display: inline;
+      margin-bottom: 0
+    }
+    
+    ._5ngu {
+      margin-top: 4px
+    }
+    
+    .unclickable {
+      overflow: hidden;
+      position: relative;
+      -webkit-user-select: none
+    }
+    
+    .unclickable .unclickableMask {
+      // background: url(/rsrc.php/v3/y4/r/-PAXP-deijE.gif) repeat;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 10
+    }
+    
+    @media print {
+      .unclickable .unclickableMask {
+        background: none
+      }
+    }
+    
+    ._1h5_ {
+      position: relative
+    }
+    
+    ._1h60 {
+      position: absolute;
+      right: 4px;
+      top: 2px
+    }
+    
+    ._4-ni {
+      border-left: 4px solid #ebedf0;
+      margin: 28px 0;
+      word-wrap: break-word
+    }
+    
+    .uiCollapsedList .visible {
+      margin-right: 10px
+    }
+    
+    .uiCollapsedListHidden .showAll {
+      list-style-type: none
+    }
+    
+    .uiCollapsedListVisible .showAll,
+    .uiCollapsedListHidden>.hiddenItem {
+      display: none
+    }
+    
+    .uiCollapsedListNoSeparate .visible {
+      margin-right: 3px
+    }
+    
+    .uiCollapsedListVisible .visible,
+    .uiCollapsedListMiddot .visible {
+      margin-right: 0
+    }
+    
+    .uiScaledImageContainer {
+      position: relative;
+      overflow: hidden
+    }
+    
+    .uiScaledImageCentered {
+      background-color: #f5f6f7;
+      text-align: center
+    }
+    
+    .uiScaledImageContainer img {
+      height: 100%;
+      min-height: 100%;
+      position: relative
+    }
+    
+    .uiScaledImageContainer .scaledImageFitWidth {
+      height: auto;
+      min-height: initial;
+      width: 100%
+    }
+    
+    .uiScaledImageContainer .scaledImageFitHeight {
+      height: 100%;
+      min-height: initial;
+      width: auto
+    }
+    
+    .uiScaledImageContainer .verticallyAligned {
+      min-height: 0;
+      vertical-align: middle
+    }
+    
+    ._5dwa {
+      line-height: 12px;
+      overflow: hidden;
+      padding: 8px 0 7px;
+      position: relative
+    }
+    
+    ._5dw9._5dwa {
+      min-height: 24px
+    }
+    
+    ._5dw9 span._38my {
+      line-height: 28px;
+      margin-left: 12px;
+      padding: 0
+    }
+    
+    ._33gp ._38my,
+    ._5dw9 ._38my {
+      color: #1d2129;
+      font-size: 14px;
+      font-weight: 600
+    }
+    
+    ._33gp {
+      align-items: center;
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 12px
+    }
+    
+    ._33gp {
+      padding: 10px 0 9px 0
+    }
+    
+    ._33gp ._38my {
+      flex-grow: 1
+    }
+    
+    ._5dw9 ._5dw8 {
+      line-height: 28px
+    }
+    
+    ._5dw9 ._45hc:first-child {
+      border: 0
+    }
+    
+    ._5dw9 ._45hc a {
+      color: #4b4f56;
+      font-weight: normal;
+      padding: 8px 12px
+    }
+    
+    ._5dw9 ._45hc:hover a,
+    ._5dw9 ._1hqh a {
+      color: #1d2129
+    }
+    
+    ._5dw9 ._45hc ._c1c {
+      bottom: -4px;
+      height: 3px;
+      left: 8px;
+      margin-bottom: -3px;
+      right: 8px
+    }
+    
+    ._5dw9 ._45hc:hover ._c1c {
+      background-color: #edf2fa
+    }
+    
+    ._5dwb ._38my {
+      margin-left: 18px;
+      padding: 0
+    }
+    
+    ._33gq ._38my,
+    ._5dwb ._38my {
+      color: #90949c;
+      font-weight: 600;
+      text-decoration: none;
+      text-transform: uppercase
+    }
+    
+    ._33gq {
+      align-items: center;
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 12px;
+      padding: 10px 0 9px 0
+    }
+    
+    ._33gq ._38my {
+      flex-grow: 1
+    }
+    
+    ._5dwb ._38my:first-child {
+      margin-left: 12px
+    }
+    
+    ._5dwb._3s3z ._3s3- {
+      border-bottom: 1px solid #ebedf0;
+      bottom: -1px;
+      left: 0;
+      margin: 0 12px;
+      position: absolute;
+      right: 0
+    }
+    
+    html ._5dwa._33gq,
+    html ._5dwa._5dwb {
+      border-top: none
+    }
+    
+    ._5dwa._33gq+div,
+    ._5dwa._5dwb+div {
+      border-top: none
+    }
+    
+    ._5dwb ._45hc a {
+      color: #90949c
+    }
+    
+    ._5dwb ._45hc:hover a,
+    ._5dwb ._1hqh a {
+      color: #4b4f56
+    }
+    
+    ._5dwb ._45hc ._c1c {
+      bottom: -6px;
+      height: 2px;
+      left: 0;
+      margin-bottom: -2px;
+      right: 0;
+      z-index: 1
+    }
+    
+    ._5dwb ._45hc:hover ._c1c {
+      background: #9cb4d8
+    }
+    
+    ._5dwb ._45hc._1hqh ._c1c {
+      background: #365899
+    }
+    
+    ._c1b {
+      bottom: -1px;
+      color: #7f7f7f;
+      display: inline-block;
+      font-size: 11px;
+      font-weight: normal;
+      padding-left: 12px;
+      position: relative;
+      vertical-align: top
+    }
+    
+    ._5dw7 {
+      color: #90949c;
+      margin-left: 12px
+    }
+    
+    ._38my {
+      color: #4b4f56
+    }
+    
+    ._5dw7,
+    ._38my {
+      font-size: 11px
+    }
+    
+    ._1hqh._38my a {
+      font-weight: 600
+    }
+    
+    ._9hb {
+      left: 0;
+      position: absolute;
+      right: 0;
+      text-align: center
+    }
+    
+    ._9hc {
+      font-weight: 600;
+      visibility: hidden
+    }
+    
+    ._5dw8 {
+      display: block;
+      float: right;
+      line-height: 13px;
+      margin: 0 12px
+    }
+    
+    ._5dw8 a {
+      font-size: 12px
+    }
+    
+    ._1ng1 {
+      display: inline-block
+    }
+    
+    ._3s3- {
+      clear: both
+    }
+    
+    ._5dwa ._45hc a:hover {
+      text-decoration: none
+    }
+    
+    ._5dwa ._45hc ._c1c {
+      display: none;
+      position: absolute
+    }
+    
+    ._5dwa ._45hc:hover ._c1c {
+      display: block
+    }
+    
+    ._5dwa ._45hc._1hqh ._c1c {
+      background-color: #4267b2;
+      display: block;
+      z-index: 1
+    }
+    
+    ._5hl1 {
+      background-color: #3578e5;
+      border-radius: 10px;
+      box-shadow: inset 0 1px 1px rgba(48, 82, 149, .15), 0 1px 0 rgba(0, 0, 0, .1);
+      box-sizing: border-box;
+      color: #fff;
+      cursor: default;
+      display: inline-block;
+      font-family: Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+      font-size: 11px;
+      font-weight: bold;
+      min-width: 20px;
+      padding: 0 6px;
+      text-align: center;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, .2)
+    }
+    
+    a ._5hl1 {
+      cursor: inherit
+    }
+    
+    ._5hl2 {
+      background-color: #ccc;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1), 0 1px 1px #fff
+    }
+    
+    ._5v47 {
+      display: inline;
+      white-space: nowrap
+    }
+    
+    .UFICommentContent ._5v47 {
+      font-size: 12px
+    }
+    
+    ._5uzb {
+      padding-right: 3px
+    }
+    
+    ._1ipe {
+      font-size: 0;
+      visibility: hidden
+    }
+    
+    ._1x3s {
+      display: none
+    }
+    
+    #bootloader_dmKhc {
+      height: 42px;
+    }
+    
+    .bootloader_dmKhc {
+      display: block!important;
+    }
+
+    a {
+      color: #385898;
+      cursor: pointer;
+      text-decoration: none
+    }
+    
+    button {
+      margin: 0
+    }
+    
+    a:hover {
+      text-decoration: underline
+    }
+    
+    img {
+      border: 0
+    }
+    
+    td,
+    td.label {
+      text-align: left
+    }
+    
+    dd {
+      color: #000
+    }
+    
+    dt {
+      color: #606770
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0
+    }
+    
+    abbr {
+      border-bottom: none;
+      text-decoration: none
+    }
+    
+    hr {
+      background: #dadde1;
+      border-width: 0;
+      color: #dadde1;
+      height: 1px
+    }
+    
+    .clearfix:after {
+      clear: both;
+      content: '.';
+      display: block;
+      font-size: 0;
+      height: 0;
+      line-height: 0;
+      visibility: hidden
+    }
+    
+    .clearfix {
+      zoom: 1
+    }
+    
+    .datawrap {
+      word-wrap: break-word
+    }
+    
+    .word_break {
+      display: inline-block
+    }
+    
+    .ellipsis {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap
+    }
+    
+    .aero {
+      opacity: .5
+    }
+    
+    .column {
+      float: left
+    }
+    
+    .center {
+      margin-left: auto;
+      margin-right: auto
+    }
+    
+    #facebook .hidden_elem {
+      display: none !important
+    }
+    
+    #facebook .invisible_elem {
+      visibility: hidden
+    }
+    
+    #facebook .accessible_elem {
+      clip: rect(1px, 1px, 1px, 1px);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px
+    }
+    
+    .direction_ltr {
+      direction: ltr
+    }
+    
+    .direction_rtl {
+      direction: rtl
+    }
+    
+    .text_align_ltr {
+      text-align: left
+    }
+    
+    .text_align_rtl {
+      text-align: right
+    }
+    
+    *::-webkit-input-placeholder {
+      color: #606770
+    }
+    
+    *:focus::-webkit-input-placeholder {
+      color: #bec3c9
+    }
+    
+    .no_js *::-webkit-input-placeholder {
+      color: #000
+    }
+    
+    body {
+      overflow-y: scroll
+    }
+    
+    .mini_iframe {
+      overflow-y: visible
+    }
+    
+    .auto_resize_iframe {
+      height: auto;
+      overflow: hidden
+    }
+    
+    .pipe {
+      color: gray;
+      padding: 0 3px
+    }
+    
+    #content {
+      margin: 0;
+      outline: none;
+      padding: 0;
+      width: auto
+    }
+    
+    .profile #content,
+    .home #content,
+    .search #content {
+      min-height: 600px
+    }
+    
+    .UIStandardFrame_Container {
+      margin: 0 auto;
+      padding-top: 20px;
+      width: 960px
+    }
+    
+    .UIStandardFrame_Content {
+      float: left;
+      margin: 0;
+      padding: 0;
+      width: 760px
+    }
+    
+    .UIStandardFrame_SidebarAds {
+      float: right;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      word-wrap: break-word
+    }
+    
+    .UIFullPage_Container {
+      margin: 0 auto;
+      padding: 20px 12px 0;
+      width: 940px
+    }
+    
+    .empty_message {
+      background: #f5f6f7;
+      font-size: 13px;
+      line-height: 17px;
+      padding: 20px 20px 50px;
+      text-align: center
+    }
+    
+    .see_all {
+      text-align: right
+    }
+    
+    .standard_status_element {
+      visibility: hidden
+    }
+    
+    .standard_status_element.async_saving {
+      visibility: visible
+    }
+    
+    img.tracking_pixel {
+      height: 1px;
+      position: absolute;
+      visibility: hidden;
+      width: 1px
+    }
+    
+    .fixed_elem,
+    .fixed_always {
+      position: fixed !important
+    }
+    
+    .tinyHeight .fixed_elem {
+      position: static !important
+    }
+    
+    .chrome .fixed_elem,
+    .chrome .fixed_always {
+      transform: translateZ(0)
+    }
+    
+    .tinyHeight .chrome .fixed_elem {
+      transform: none
+    }
+    
+    ._li._li._li {
+      overflow: initial
+    }
+    
+    ._910i._li._li._li {
+      overflow: hidden
+    }
+    
+    ._9053 ._li._li._li {
+      overflow-x: hidden
+    }
+    
+    ._72b0 {
+      position: relative;
+      z-index: 0
+    }
+    
+    .registration ._li._9bpz {
+      background-color: #f0f2f5
+    }
+    
+    ._li ._9bp- {
+      padding-top: 5px;
+      text-align: center
+    }
+    
+    ._li ._9bp- .fb_logo {
+      height: 100px
+    }
+    
+    ._li ._9l09 {
+      padding-top: 5px;
+      text-align: center
+    }
+    
+    ._li ._9l09 .fb_logo {
+      height: 80px;
+      padding-top: 72px
+    }
+    
+    ._53ij {
+      background: #fff;
+      background: var(--card-background, #FFFFFF);
+      position: relative
+    }
+    
+    ._53io {
+      overflow: hidden;
+      position: absolute
+    }
+    
+    ._53ih ._53io {
+      display: none
+    }
+    
+    ._2agf {
+      word-wrap: normal
+    }
+    
+    ._2agf._4o_4 {
+      display: inline-flex
+    }
+    
+    ._55pe {
+      display: inline-block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      vertical-align: top;
+      white-space: nowrap
+    }
+    
+    ._5f0v {
+      outline: none
+    }
+    
+    ._3oxt {
+      outline: 1px dotted #3b5998;
+      outline-color: invert
+    }
+    
+    .webkit ._3oxt {
+      outline: 5px auto #5b9dd9
+    }
+    
+    .win.webkit ._3oxt {
+      outline-color: #e59700
+    }
+    
+    i.img {
+      -ms-high-contrast-adjust: none
+    }
+    
+    i.img u {
+      clip: rect(1px, 1px, 1px, 1px);
+      height: 1px;
+      left: auto;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px
+    }
+    
+    .uiLayer {
+      outline: none
+    }
+    
+    .uiContextualLayerPositioner {
+      height: 0;
+      position: absolute;
+      z-index: 202
+    }
+    
+    .uiContextualLayer {
+      position: absolute
+    }
+    
+    div.uiContextualLayerPositionerFixed {
+      position: fixed
+    }
+    
+    .uiContextualLayerParent {
+      position: relative
+    }
+    
+    a._p {
+      display: block
+    }
+    
+    ._1m42 {
+      display: block
+    }
+    
+    ._1w_m ._1m42 img,
+    ._53s ._1m42 i {
+      -webkit-filter: brightness(50%) blur(5px);
+      transition: filter .5s ease-out
+    }
+    
+    ._5v3q ._1m42::before,
+    ._1m42::before {
+      animation: rotateSpinner 1.2s linear infinite;
+      // background-image: url(/rsrc.php/v3/y2/r/onuUJj0tCqE.png);
+      border: 0;
+      content: '';
+      display: inline-block;
+      height: 24px;
+      left: 50%;
+      margin: -12px -12px;
+      position: absolute;
+      top: 50%;
+      width: 24px;
+      z-index: 10
+    }
+    
+    ._6a {
+      display: inline-block
+    }
+    
+    ._6d {
+      vertical-align: bottom
+    }
+    
+    ._6b {
+      vertical-align: middle
+    }
+    
+    ._6e {
+      vertical-align: top
+    }
+    
+    ._5u5j {
+      width: 100%
+    }
+    
+    @keyframes CSSFade_show {
+      0% {
+        opacity: 0
+      }
+      100% {
+        opacity: 1
+      }
+    }
+    
+    @keyframes CSSFade_hide {
+      0% {
+        opacity: 1
+      }
+      100% {
+        opacity: 0
+      }
+    }
+    
+    ._42ft {
+      cursor: pointer;
+      display: inline-block;
+      text-decoration: none;
+      white-space: nowrap
+    }
+    
+    ._42ft:hover {
+      text-decoration: none
+    }
+    
+    ._42ft+._42ft {
+      margin-left: 4px
+    }
+    
+    ._42fr,
+    ._42fs {
+      cursor: default
+    }
+    
+    ._4qba {
+      font-style: inherit
+    }
+    
+    ._4qbb,
+    ._4qbc,
+    ._4qbd {
+      background: none;
+      font-style: inherit;
+      padding: 0;
+      width: auto
+    }
+    
+    ._4qbd {
+      border-bottom: 1px solid #f99
+    }
+    
+    ._4qbb,
+    ._4qbc {
+      border-bottom: 1px solid #999
+    }
+    
+    ._4qbb:hover,
+    ._4qbc:hover,
+    ._4qbd:hover {
+      background-color: #fcc;
+      border-top: 1px solid #ccc;
+      cursor: help
+    }
+    
+    #bootloader_o4Cmd {
+      height: 42px;
+    }
+    
+    .bootloader_o4Cmd {
+      display: block!important;
+    }
+  
+    ._52c6 {
+      visibility: hidden;
+    }
+    form {
+    margin: 0;
+    padding: 0
+  }
+  
+  label {
+    color: #606770;
+    cursor: default;
+    font-weight: 600;
+    vertical-align: middle
+  }
+  
+  label input {
+    font-weight: normal
+  }
+  
+  textarea,
+  .inputtext,
+  .inputpassword {
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+    border-radius: 0;
+    margin: 0;
+    padding: 3px
+  }
+  
+  textarea {
+    max-width: 100%
+  }
+  
+  select {
+    border: 1px solid #ccd0d5;
+    padding: 2px
+  }
+  
+  input,
+  select,
+  textarea {
+    background-color: #fff;
+    color: #1c1e21
+  }
+  
+  .inputtext,
+  .inputpassword {
+    padding-bottom: 4px
+  }
+  
+  .inputtext:invalid,
+  .inputpassword:invalid {
+    box-shadow: none
+  }
+  
+  .inputradio {
+    margin: 0 5px 0 0;
+    padding: 0;
+    vertical-align: middle
+  }
+  
+  .inputcheckbox {
+    border: 0;
+    vertical-align: middle
+  }
+  
+  .inputbutton,
+  .inputsubmit {
+    background-color: #4267b2;
+    border-color: #DADDE1 #0e1f5b #0e1f5b #d9dfea;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    padding: 2px 15px 3px 15px;
+    text-align: center
+  }
+  
+  .inputaux {
+    background: #ebedf0;
+    border-color: #EBEDF0 #666 #666 #e7e7e7;
+    color: #000
+  }
+  
+  .inputsearch {
+    // background: #FFFFFF url(/rsrc.php/v3/yV/r/IJYgcESal33.png) no-repeat left 4px;
+    padding-left: 17px
+  }
+  
+  html {
+    touch-action: manipulation
+  }
+  
+  body {
+    background: #fff;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed
+  }
+  
+  body,
+  button,
+  input,
+  label,
+  select,
+  td,
+  textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #1c1e21;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0
+  }
+  
+  h1 {
+    font-size: 14px
+  }
+  
+  h4,
+  h5,
+  h6 {
+    font-size: 12px
+  }
+  
+  p {
+    margin: 1em 0
+  }
+  
+  b,
+  strong {
+    font-weight: 600
+  }
+  }
+
+
+
+
+  
+
+  // Twitter card
+
+.social-cards .twitter-card {
+  max-width: 530px;
+  html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: transparent;
+    font-family: sans-serif
+  }
+  
+  body {
+    background-color: transparent;
+    margin: 0
+  }
+  
+  a {
+    color: #0084b4;
+    text-decoration: none
+  }
+  
+  a:focus,
+  a:active,
+  a:hover {
+    color: #0084b4;
+    text-decoration: underline
+  }
+  
+  .TwitterCard {
+    color: #292F33;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.3em
+  }
+  
+  
+  /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+  
+  .TwitterCard article,
+  .TwitterCard aside,
+  .TwitterCard details,
+  .TwitterCard figcaption,
+  .TwitterCard figure,
+  .TwitterCard footer,
+  .TwitterCard header,
+  .TwitterCard hgroup,
+  .TwitterCard main,
+  .TwitterCard nav,
+  .TwitterCard section,
+  .TwitterCard summary {
+    display: block
+  }
+  
+  .TwitterCard audio,
+  .TwitterCard canvas,
+  .TwitterCard video {
+    display: inline-block
+  }
+  
+  .TwitterCard audio:not([controls]) {
+    display: none;
+    height: 0
+  }
+  
+  .TwitterCard [hidden] {
+    display: none
+  }
+  
+  .TwitterCard html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+  }
+  
+  .TwitterCard body {
+    margin: 0
+  }
+  
+  .TwitterCard a:focus {
+    outline: thin dotted
+  }
+  
+  .TwitterCard a:active,
+  .TwitterCard a:hover {
+    outline: 0
+  }
+  
+  .TwitterCard h1 {
+    font-size: 2em;
+    margin: .67em 0
+  }
+  
+  .TwitterCard abbr[title] {
+    border-bottom: 1px dotted
+  }
+  
+  .TwitterCard b,
+  .TwitterCard strong {
+    font-weight: 700
+  }
+  
+  .TwitterCard dfn {
+    font-style: italic
+  }
+  
+  .TwitterCard hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+  }
+  
+  .TwitterCard mark {
+    background: #ff0;
+    color: #000
+  }
+  
+  .TwitterCard code,
+  .TwitterCard kbd,
+  .TwitterCard pre,
+  .TwitterCard samp {
+    font-family: monospace, serif;
+    font-size: 1em
+  }
+  
+  .TwitterCard pre {
+    white-space: pre-wrap
+  }
+  
+  .TwitterCard q {
+    quotes: "\201C" "\201D" "\2018" "\2019"
+  }
+  
+  .TwitterCard small {
+    font-size: 80%
+  }
+  
+  .TwitterCard sub,
+  .TwitterCard sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+  }
+  
+  .TwitterCard sup {
+    top: -.5em
+  }
+  
+  .TwitterCard sub {
+    bottom: -.25em
+  }
+  
+  .TwitterCard img {
+    border: 0
+  }
+  
+  .TwitterCard svg:not(:root) {
+    overflow: hidden
+  }
+  
+  .TwitterCard figure {
+    margin: 0
+  }
+  
+  .TwitterCard fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+  }
+  
+  .TwitterCard legend {
+    border: 0;
+    padding: 0
+  }
+  
+  .TwitterCard button,
+  .TwitterCard input,
+  .TwitterCard select,
+  .TwitterCard textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0
+  }
+  
+  .TwitterCard button,
+  .TwitterCard input {
+    line-height: normal
+  }
+  
+  .TwitterCard button,
+  .TwitterCard select {
+    text-transform: none
+  }
+  
+  .TwitterCard button,
+  .TwitterCard html input[type=button],
+  .TwitterCard input[type=reset],
+  .TwitterCard input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+  }
+  
+  .TwitterCard button[disabled],
+  .TwitterCard html input[disabled] {
+    cursor: default
+  }
+  
+  .TwitterCard input[type=checkbox],
+  .TwitterCard input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+  }
+  
+  .TwitterCard input[type=search] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+  }
+  
+  .TwitterCard input[type=search]::-webkit-search-cancel-button,
+  .TwitterCard input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+  }
+  
+  .TwitterCard button::-moz-focus-inner,
+  .TwitterCard input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+  }
+  
+  .TwitterCard textarea {
+    overflow: auto;
+    vertical-align: top
+  }
+  
+  .TwitterCard table {
+    border-collapse: collapse;
+    border-spacing: 0
+  }
+  
+  .TwitterCard[data-card-client=dm][data-corners^="true,true"] .TwitterCard-container {
+    border-top-left-radius: 1.42857em;
+    border-top-right-radius: 1.42857em
+  }
+  
+  .TwitterCard[data-card-client=dm][data-corners^="true,false"] .TwitterCard-container {
+    border-top-left-radius: 1.42857em;
+    border-top-right-radius: 0
+  }
+  
+  .TwitterCard[data-card-client=dm][data-corners^="false,true"] .TwitterCard-container {
+    border-top-left-radius: 0;
+    border-top-right-radius: 1.42857em
+  }
+  
+  .TwitterCard[data-card-client=dm][data-corners^="false,false"] .TwitterCard-container {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+  }
+  
+  .TwitterCard[data-card-client=dm][data-corners$="true,true"] .TwitterCard-container {
+    border-bottom-right-radius: 1.42857em;
+    border-bottom-left-radius: 1.42857em
+  }
+  
+  .TwitterCard[data-card-client=dm][data-corners$="true,false"] .TwitterCard-container {
+    border-bottom-right-radius: 1.42857em;
+    border-bottom-left-radius: 0
+  }
+  
+  .TwitterCard[data-card-client=dm][data-corners$="false,true"] .TwitterCard-container {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 1.42857em
+  }
+  
+  .TwitterCard[data-card-client=dm][data-corners$="false,false"] .TwitterCard-container {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0
+  }
+  
+  .TwitterCard[data-card-client=dm] .CardContent {
+    margin: 0!important
+  }
+  
+  .TwitterCard .u-inline {
+    display: inline!important
+  }
+  
+  .TwitterCard .u-inlineBlock {
+    display: inline-block!important
+  }
+  
+  .TwitterCard .u-block {
+    display: block!important
+  }
+  
+  .TwitterCard .u-table {
+    display: table!important
+  }
+  
+  .TwitterCard .u-tableCell {
+    display: table-cell!important
+  }
+  
+  .TwitterCard .u-cf:before,
+  .TwitterCard .u-cf:after {
+    content: " ";
+    display: table
+  }
+  
+  .TwitterCard .u-cf:after {
+    clear: both
+  }
+  
+  .TwitterCard .u-nbfc {
+    overflow: hidden
+  }
+  
+  .TwitterCard .u-nbfcAlt {
+    display: table-cell;
+    width: 10000px
+  }
+  
+  .TwitterCard .u-pullLeft {
+    float: left!important
+  }
+  
+  .TwitterCard .u-pullRight {
+    float: right!important
+  }
+  
+  .TwitterCard .u-objLeft {
+    float: left!important;
+    margin-right: 10px
+  }
+  
+  .TwitterCard .u-objRight {
+    float: right!important;
+    margin-left: 10px
+  }
+  
+  .TwitterCard .u-objLeft img,
+  .TwitterCard .u-objRight img {
+    display: block;
+    max-width: none
+  }
+  
+  .TwitterCard .u-alignTop {
+    vertical-align: top!important
+  }
+  
+  .TwitterCard .u-alignMiddle {
+    vertical-align: middle!important
+  }
+  
+  .TwitterCard .u-alignBaseline {
+    vertical-align: baseline!important
+  }
+  
+  .TwitterCard .u-alignBottom {
+    vertical-align: bottom!important
+  }
+  
+  .TwitterCard .u-linkClean,
+  .TwitterCard .u-linkClean:hover,
+  .TwitterCard .u-linkClean:focus,
+  .TwitterCard .u-linkClean:active {
+    text-decoration: none
+  }
+  
+  .TwitterCard .u-linkComplex,
+  .TwitterCard .u-linkComplex:hover,
+  .TwitterCard .u-linkComplex:focus,
+  .TwitterCard .u-linkComplex:active {
+    text-decoration: none
+  }
+  
+  .TwitterCard .u-linkComplex:hover .u-linkComplex-target,
+  .TwitterCard .u-linkComplex:focus .u-linkComplex-target,
+  .TwitterCard .u-linkComplex:active .u-linkComplex-target {
+    text-decoration: underline
+  }
+  
+  .TwitterCard .u-linkBlock,
+  .TwitterCard .u-linkBlock:hover,
+  .TwitterCard .u-linkBlock:focus,
+  .TwitterCard .u-linkBlock:active {
+    display: block;
+    text-decoration: none
+  }
+  
+  .TwitterCard .u-linkPseudo {
+    display: inline;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    font: inherit
+  }
+  
+  .TwitterCard .u-linkPseudo:hover,
+  .TwitterCard .u-linkPseudo:focus,
+  .TwitterCard .u-linkPseudo:active {
+    background: transparent;
+    color: inherit
+  }
+  
+  .TwitterCard .u-textTruncate {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal
+  }
+  
+  .TwitterCard .u-textBreak {
+    word-break: break-all;
+    word-break: break-word;
+    word-wrap: break-word
+  }
+  
+  .TwitterCard .u-textCenter {
+    text-align: center
+  }
+  
+  .TwitterCard .u-textLeft {
+    text-align: left
+  }
+  
+  .TwitterCard .u-textRight {
+    text-align: right
+  }
+  
+  .TwitterCard .FlexEmbed {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding: 0
+  }
+  
+  .TwitterCard .FlexEmbed-item,
+  .TwitterCard .FlexEmbed iframe,
+  .TwitterCard .FlexEmbed embed,
+  .TwitterCard .FlexEmbed object {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%
+  }
+  
+  .TwitterCard .FlexEmbed--16by9 {
+    padding-bottom: 56.25%
+  }
+  
+  .TwitterCard .FlexEmbed--4by3 {
+    padding-bottom: 75%
+  }
+  
+  .TwitterCard .Button {
+    -webkit-appearance: none;
+    background: transparent;
+    border: 1px solid;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font: inherit;
+    line-height: normal;
+    margin: 0;
+    padding: .4em .75em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap
+  }
+  
+  .TwitterCard .Button:hover,
+  .TwitterCard .Button:focus,
+  .TwitterCard .Button:active {
+    text-decoration: none
+  }
+  
+  .TwitterCard .Button:disabled,
+  .TwitterCard .Button.is-disabled {
+    cursor: default
+  }
+  
+  .TwitterCard .Button::-moz-focus-inner {
+    border: 0;
+    padding: 0
+  }
+  
+  .TwitterCard .Button--full {
+    display: block;
+    width: 100%
+  }
+  
+  .TwitterCard {
+    background: transparent;
+    color: inherit;
+    overflow: hidden
+  }
+  
+  .TwitterCard-unifiedClickContainer {
+    color: inherit!important;
+    outline: 0
+  }
+  
+  .TwitterCard-unifiedClickContainer:hover {
+    color: inherit!important;
+    outline: 0
+  }
+  
+  .TwitterCard-unifiedClickContainer--noDetails {
+    border-bottom: 0;
+    border-bottom-width: 0!important
+  }
+  
+  .TwitterCard-unifiedButton {
+    box-sizing: border-box;
+    padding: 0 .75em .75em
+  }
+  
+  .TwitterCard-unifiedButton--linkIcon:before {
+    background: currentColor;
+    content: "";
+    display: inline-block;
+    height: 1.1em;
+    margin-bottom: 2px;
+    mask: url(//ton.twimg.com/tfw/assets/hyperlink_v1_baf45f96c56269cd98764f8bb57b273e6a4c8621.svg) no-repeat 50% 50%;
+    mask-size: cover;
+    vertical-align: middle;
+    width: 1.1em;
+    -webkit-mask: url(//ton.twimg.com/tfw/assets/hyperlink_v1_baf45f96c56269cd98764f8bb57b273e6a4c8621.svg) no-repeat 50% 50%;
+    -webkit-mask-size: cover
+  }
+  
+  .TwitterCard-unifiedButton--linkIcon[dir=rtl]:before {
+    margin-left: 4px
+  }
+  
+  .TwitterCard-unifiedButton--linkIcon[dir=ltr]:before {
+    margin-right: 4px
+  }
+  
+  .TwitterCard-unifiedContainer--withButtons {
+    padding-top: .75em
+  }
+  
+  .TwitterCard-unifiedContainer--withButtons .SummaryCard-content {
+    padding-top: 0!important
+  }
+  
+  .TwitterCard--animation {
+    animation-duration: 150ms;
+    animation-name: fadeInTwitterCard;
+    animation-timing-function: cubic-bezier(0.9, 0, .9, 0)
+  }
+  
+  .TwitterCard b,
+  .TwitterCard strong {
+    font-weight: 700
+  }
+  
+  .TwitterCard a[tabindex="-1"] {
+    outline: 0
+  }
+  
+  .TwitterCard .is-emojiCharacter {
+    font-weight: 400!important
+  }
+  
+  .TwitterCard .Emoji--forText {
+    height: 1.25em;
+    width: 1.25em;
+    padding: 0 .05em 0 .1em;
+    vertical-align: -.2em
+  }
+  
+  .TwitterCard .Emoji--forLinks {
+    background-position: .1em;
+    background-repeat: no-repeat;
+    background-size: 1.25em 1.25em;
+    letter-spacing: 1.1em;
+    line-height: 1.25em;
+    padding-top: .15em;
+    -moz-user-select: none;
+    -ms-user-select: none
+  }
+  
+  .TwitterCard-title {
+    font-size: 1em;
+    margin: 0 0 .15em
+  }
+  
+  .TwitterCard-thumbnail {
+    width: 97%;
+    width: calc(100% - 1em)
+  }
+  
+  .TwitterCard-thumbnail--appIcon {
+    border-radius: 17%;
+    width: 66%
+  }
+  
+  .TwitterCard-attribution--avatar {
+    border-radius: 2px;
+    vertical-align: middle;
+    width: 20px
+  }
+  
+  .TwitterCard-attribution--avatar.EdgeAvatar {
+    border-radius: 50%
+  }
+  
+  .TwitterCard-attribution--name {
+    font-size: 1em;
+    vertical-align: middle
+  }
+  
+  .TwitterCard-attribution--category,
+  .TwitterCard-attribution--screenName {
+    color: #8899A6;
+    font-size: 1em;
+    vertical-align: middle
+  }
+  
+  .TwitterCard-container {
+    border-radius: .85714em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E1E8ED;
+    box-sizing: border-box;
+    color: inherit!important;
+    max-width: 800px;
+    overflow: hidden
+  }
+  
+  .TwitterCard-container--hiddenVideo {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 0
+  }
+  
+  .TwitterCard-container[data-theme=dark] {
+    border-color: #8899A6
+  }
+  
+  .TwitterCard-container--clickable {
+    cursor: pointer;
+    outline-offset: -1px;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out
+  }
+  
+  .TwitterCard-container--clickable:hover {
+    background: #F5F8FA;
+    border-color: #8899A6;
+    border-color: rgba(136, 153, 166, .5)
+  }
+  
+  .TwitterCard-container--clickable[data-theme=dark]:hover {
+    background-color: rgba(255, 255, 255, .1);
+    border-color: #FFF
+  }
+  
+  .TwitterCard-pill {
+    border-radius: .25em;
+    display: block;
+    font-size: .8em;
+    padding: .25em .75em;
+    text-transform: uppercase
+  }
+  
+  .TwitterCard-pill--dark {
+    background-color: #292F33;
+    color: #FFF
+  }
+  
+  .TwitterCard-pill--red {
+    background-color: #E81C4F;
+    color: #FFF
+  }
+  
+  .TwitterCard-pill--overlay {
+    bottom: .75em;
+    left: 1em;
+    position: absolute
+  }
+  
+  .tcu-linkImgFocus:focus {
+    outline: 2px solid!important;
+    outline-offset: -2px
+  }
+  
+  .tcu-linkImgFocus img {
+    display: block
+  }
+  
+  .tcu-resetMargin {
+    margin: 0
+  }
+  
+  @media screen and (min-resolution:2dppx) {
+    .TwitterCard {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased
+    }
+  }
+  
+  @keyframes fadeInTwitterCard {
+    from {
+      opacity: 0
+    }
+    to {
+      opacity: 1
+    }
+  }
+  
+  .TwitterCard .showOnSuccess,
+  .TwitterCard .showOnError {
+    display: none
+  }
+  
+  .TwitterCard .successElements .showOnSuccess,
+  .TwitterCard .errorElements .showOnError {
+    display: block
+  }
+  
+  .TwitterCard .hideOnSuccess,
+  .TwitterCard .hideOnError {
+    display: block
+  }
+  
+  .TwitterCard .successElements .hideOnSuccess,
+  .TwitterCard .errorElements .hideOnError {
+    display: none
+  }
+  
+  .tcu-dir[dir=rtl] {
+    direction: rtl!important;
+    text-align: right!important;
+    unicode-bidi: embed
+  }
+  
+  .tcu-dir[dir=ltr] {
+    direction: ltr!important;
+    text-align: left!important;
+    unicode-bidi: embed
+  }
+  
+  .tcu-imageAspect--1to1:before {
+    padding-top: 100%
+  }
+  
+  .tcu-imageAspect--1to2:before {
+    padding-top: 200%
+  }
+  
+  .tcu-imageAspect--2to1:before {
+    padding-top: 50%
+  }
+  
+  .tcu-imageAspect--1_91to1:before {
+    padding-top: 52.25%
+  }
+  
+  .tcu-imageAspect--3to4:before {
+    padding-top: 133.33%
+  }
+  
+  .tcu-imageAspect--4to3:before {
+    padding-top: 75%
+  }
+  
+  .tcu-imageAspect--5to2:before {
+    padding-top: 40%
+  }
+  
+  .tcu-imageAspect--16to9:before {
+    padding-top: 56.25%
+  }
+  
+  .tcu-imageAspect--4to1:before {
+    padding-top: 25%
+  }
+  
+  .tcu-imageContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden
+  }
+  
+  .tcu-imageContainer:before {
+    content: "";
+    display: block
+  }
+  
+  .tcu-imageWrapper {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    bottom: -1px;
+    right: -1px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+  }
+  
+  .tcu-imageWrapper img {
+    width: 100%;
+    height: 100%;
+    opacity: 0
+  }
+  
+  .tcu-graylink {
+    color: #AAA;
+    text-decoration: none
+  }
+  
+  .tcu-graylink:focus,
+  .tcu-graylink:active,
+  .tcu-graylink:hover {
+    text-decoration: underline
+  }
+  
+  .tcu-clickable:hover {
+    cursor: pointer
+  }
+  
+  .tcu-textWrap--break {
+    word-wrap: break-word
+  }
+  
+  .tcu-textMute {
+    color: #777
+  }
+  
+  .tcu-textSmall {
+    font-size: .857em
+  }
+  
+  .tcu-textUppercase {
+    text-transform: uppercase
+  }
+  
+  .tcu-textLowercase {
+    text-transform: lowercase
+  }
+  
+  .tcu-textCapitalize {
+    text-transform: capitalize
+  }
+  
+  .tcu-textEllipse {
+    max-height: 1.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+  
+  .tcu-textBold {
+    font-weight: 700
+  }
+  
+  .tcu-textBold .is-emojiCharacter {
+    font-weight: 400
+  }
+  
+  .tcu-textEllipse--multiline {
+    overflow: hidden
+  }
+  
+  .tcu-textInherit {
+    color: inherit
+  }
+  
+  .tcu-textInherit:not(:focus):not(:hover):not(:active) {
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: inherit
+  }
+  
+  .tcu-textInheritAll,
+  .tcu-textInheritAll:hover,
+  .tcu-textInheritAll:focus,
+  .tcu-textInheritAll:active,
+  .tcu-textInheritAll:visited {
+    color: inherit
+  }
+  
+  .TwitterCardsGrid .u-textNext {
+    text-align: right
+  }
+  
+  .TwitterCardsGrid .u-textPrev {
+    text-align: left
+  }
+  
+  .TwitterCardsGrid-rtl .u-textNext {
+    text-align: left
+  }
+  
+  .TwitterCardsGrid-rtl .u-textPrev {
+    text-align: right
+  }
+  
+  .TwitterCardsGrid {
+    display: block;
+    position: relative;
+    text-align: left
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--1 {
+    float: left;
+    margin-right: .32333em;
+    width: 7%;
+    width: calc(8.33333% - .30556em)
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--1 {
+    margin-right: 0;
+    width: 8.33333%
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--1 {
+    float: right;
+    margin-right: 0;
+    margin-left: .32333em
+  }
+  
+  .TwitterCardsGrid-rtl.TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--1,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--1 {
+    margin-left: 0
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--2 {
+    float: left;
+    margin-right: .32333em;
+    width: 15%;
+    width: calc(16.66667% - .27778em)
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--2 {
+    margin-right: 0;
+    width: 16.66667%
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--2 {
+    float: right;
+    margin-right: 0;
+    margin-left: .32333em
+  }
+  
+  .TwitterCardsGrid-rtl.TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--2,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--2 {
+    margin-left: 0
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--3 {
+    float: left;
+    margin-right: .32333em;
+    width: 24%;
+    width: calc(25% - .25em)
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--3 {
+    margin-right: 0;
+    width: 25%
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--3 {
+    float: right;
+    margin-right: 0;
+    margin-left: .32333em
+  }
+  
+  .TwitterCardsGrid-rtl.TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--3,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--3 {
+    margin-left: 0
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--4 {
+    float: left;
+    margin-right: .32333em;
+    width: 32%;
+    width: calc(33.33333% - .22222em)
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--4 {
+    margin-right: 0;
+    width: 33.33333%
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--4 {
+    float: right;
+    margin-right: 0;
+    margin-left: .32333em
+  }
+  
+  .TwitterCardsGrid-rtl.TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--4,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--4 {
+    margin-left: 0
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--5 {
+    float: left;
+    margin-right: .32333em;
+    width: 40%;
+    width: calc(41.66667% - .19444em)
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--5 {
+    margin-right: 0;
+    width: 41.66667%
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--5 {
+    float: right;
+    margin-right: 0;
+    margin-left: .32333em
+  }
+  
+  .TwitterCardsGrid-rtl.TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--5,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--5 {
+    margin-left: 0
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--6 {
+    float: left;
+    margin-right: .32333em;
+    width: 49%;
+    width: calc(50% - .16667em)
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--6 {
+    margin-right: 0;
+    width: 50%
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--6 {
+    float: right;
+    margin-right: 0;
+    margin-left: .32333em
+  }
+  
+  .TwitterCardsGrid-rtl.TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--6,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--6 {
+    margin-left: 0
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--7 {
+    float: left;
+    margin-right: .32333em;
+    width: 57%;
+    width: calc(58.33333% - .13889em)
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--7 {
+    margin-right: 0;
+    width: 58.33333%
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--7 {
+    float: right;
+    margin-right: 0;
+    margin-left: .32333em
+  }
+  
+  .TwitterCardsGrid-rtl.TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--7,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--7 {
+    margin-left: 0
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--8 {
+    float: left;
+    margin-right: .32333em;
+    width: 65%;
+    width: calc(66.66667% - .11111em)
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--8 {
+    margin-right: 0;
+    width: 66.66667%
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--8 {
+    float: right;
+    margin-right: 0;
+    margin-left: .32333em
+  }
+  
+  .TwitterCardsGrid-rtl.TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--8,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--8 {
+    margin-left: 0
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--9 {
+    float: left;
+    margin-right: .32333em;
+    width: 74%;
+    width: calc(75% - .08333em)
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--9 {
+    margin-right: 0;
+    width: 75%
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--9 {
+    float: right;
+    margin-right: 0;
+    margin-left: .32333em
+  }
+  
+  .TwitterCardsGrid-rtl.TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--9,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--9 {
+    margin-left: 0
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--10 {
+    float: left;
+    margin-right: .32333em;
+    width: 82%;
+    width: calc(83.33333% - .05556em)
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--10 {
+    margin-right: 0;
+    width: 83.33333%
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--10 {
+    float: right;
+    margin-right: 0;
+    margin-left: .32333em
+  }
+  
+  .TwitterCardsGrid-rtl.TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--10,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--10 {
+    margin-left: 0
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--11 {
+    float: left;
+    margin-right: .32333em;
+    width: 90%;
+    width: calc(91.66667% - .02778em)
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--11 {
+    margin-right: 0;
+    width: 91.66667%
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--11 {
+    float: right;
+    margin-right: 0;
+    margin-left: .32333em
+  }
+  
+  .TwitterCardsGrid-rtl.TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--11,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-noColSpacing .TwitterCardsGrid-col--11 {
+    margin-left: 0
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--12 {
+    float: left;
+    width: 100%;
+    clear: both
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--end {
+    margin-right: 0
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--end~* {
+    clear: left
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--spacerAll,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--spacerAll {
+    margin: .32333em
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--spacerPrevNext,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--spacerPrevNext {
+    margin-left: .32333em;
+    margin-right: .32333em
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--spacerPrev,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--spacerNext {
+    margin-left: .32333em
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--spacerNext,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--spacerPrev {
+    margin-right: .32333em
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--spacerTopBottom,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--spacerTopBottom {
+    margin-top: .32333em;
+    margin-bottom: .32333em
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--spacerTop,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--spacerTop {
+    margin-top: .32333em
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--spacerBottom,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--spacerBottom {
+    margin-bottom: .32333em
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-col--spacerNone,
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--spacerNone {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-float--next {
+    float: right
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-float--prev {
+    float: left
+  }
+  
+  .TwitterCardsGrid-ltr {
+    text-align: left
+  }
+  
+  .TwitterCardsGrid-rtl {
+    text-align: right
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--end {
+    margin-left: 0
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-col--end~* {
+    clear: right
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-float--next {
+    float: left
+  }
+  
+  .TwitterCardsGrid-rtl .TwitterCardsGrid-float--prev {
+    float: right
+  }
+  
+  .TwitterCardsGrid .TwitterCardsGrid-el--fullWidth {
+    width: 100%
+  }
+  
+  .TwitterCard .Button--default {
+    background-color: #f5f5f5;
+    background-image: linear-gradient(#fff, #eee);
+    border-color: #ccc;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-top: 1em;
+    padding: .5em 1em
+  }
+  
+  .TwitterCard .Button--default:hover,
+  .TwitterCard .Button--default:focus,
+  .TwitterCard .Button--default:active {
+    background: #eee;
+    border-color: #aaa;
+    color: inherit
+  }
+  
+  .TwitterCard .Button--default:active {
+    box-shadow: inset 0 2px 5px -1px rgba(0, 0, 0, .2)
+  }
+  
+  .TwitterCard .Button--smallBlue {
+    background-color: transparent;
+    border: 1px solid #1DA1F2;
+    border-radius: .25em;
+    color: #1DA1F2;
+    padding: .5em 1em;
+    margin-top: .5em;
+    transition: all .4s cubic-bezier(0.25, .46, .45, .94)
+  }
+  
+  .TwitterCard .Button--smallBlue[disabled] {
+    cursor: not-allowed
+  }
+  
+  .TwitterCard .Button--smallBlue:not([disabled]):hover,
+  .TwitterCard .Button--smallBlue:not([disabled]):focus,
+  .TwitterCard .Button--smallBlue:not([disabled]):active {
+    background-color: rgba(29, 161, 242, .1);
+    color: #1DA1F2
+  }
+  
+  .TwitterCard .Button--smallBlue>b.u-linkComplex-target {
+    font-weight: 400
+  }
+  
+  .TwitterCard .Button--smallGray {
+    background-color: #f5f8fA;
+    background-image: linear-gradient(0rad, #f5f8fA, #fff);
+    border: 1px solid #e1e8ed;
+    border-radius: .25em;
+    font-weight: 700;
+    margin-top: .5em;
+    padding: .5em 1em;
+    outline-offset: -4px!important
+  }
+  
+  .TwitterCard .Button--smallGray[disabled] {
+    cursor: not-allowed
+  }
+  
+  .TwitterCard .Button--smallGray:not([disabled]):hover,
+  .TwitterCard .Button--smallGray:not([disabled]):focus,
+  .TwitterCard .Button--smallGray:not([disabled]):active {
+    border: 1px solid #E1E1EA;
+    background-color: #e1e8ed;
+    background-image: linear-gradient(0rad, #e1e8ed, #fff);
+    color: inherit
+  }
+  
+  .TwitterCard .Button--smallGray:not([disabled]):active {
+    box-shadow: inset 0 2px 5px -1px rgba(0, 0, 0, .2)
+  }
+  
+  .TwitterCard .Button--smallGray[data-theme=dark] {
+    background-color: transparent;
+    background-image: none;
+    border-color: #FFF;
+    color: #FFF
+  }
+  
+  .TwitterCard .Button--smallGray[data-theme=dark]:not([disabled]):hover,
+  .TwitterCard .Button--smallGray[data-theme=dark]:not([disabled]):focus,
+  .TwitterCard .Button--smallGray[data-theme=dark]:not([disabled]):active {
+    background-color: rgba(255, 255, 255, .1);
+    background-image: none;
+    border-color: #FFF
+  }
+  
+  .TwitterCard .Button--smallTransparent {
+    background-color: rgba(0, 0, 0, .4);
+    border: 0;
+    border-radius: .25em;
+    color: #FFF;
+    padding: .5em 1em;
+    margin-top: .5em;
+    transition: all .4s cubic-bezier(0.25, .46, .45, .94)
+  }
+  
+  .TwitterCard .Button--smallTransparent[disabled] {
+    cursor: not-allowed
+  }
+  
+  .TwitterCard .Button--smallTransparent:not([disabled]):hover,
+  .TwitterCard .Button--smallTransparent:not([disabled]):focus,
+  .TwitterCard .Button--smallTransparent:not([disabled]):active {
+    background-color: rgba(0, 0, 0, .5)
+  }
+  
+  .TwitterCard .Button--smallTransparent>b.u-linkComplex-target {
+    font-weight: 400
+  }
+  
+  .TwitterCard a.u-buttonLabel,
+  .TwitterCard a.u-buttonLabel:hover,
+  .TwitterCard a.u-buttonLabel:focus,
+  .TwitterCard a.u-buttonLabel:active {
+    text-decoration: none;
+    color: #292F33
+  }
+  
+  .TwitterCard .EdgeButton,
+  .TwitterCard .EdgeButton:visited {
+    border-radius: 100px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: .928em;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 8px 16px;
+    position: relative;
+    white-space: nowrap
+  }
+  
+  .TwitterCard .EdgeButton:active,
+  .TwitterCard .EdgeButton:focus,
+  .TwitterCard .EdgeButton:hover,
+  .TwitterCard .EdgeButton:visited:active,
+  .TwitterCard .EdgeButton:visited:focus,
+  .TwitterCard .EdgeButton:visited:hover {
+    text-decoration: none
+  }
+  
+  .TwitterCard .EdgeButton--secondary {
+    background-color: transparent;
+    border: 1px solid #1DA1F2;
+    color: #1DA1F2
+  }
+  
+  .TwitterCard .EdgeButton--secondary:hover {
+    background-color: #EAF5FD;
+    color: #1DA1F2
+  }
+  
+  .TwitterCard .EdgeButton--secondary:focus {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #77C7F7;
+    color: #1DA1F2;
+    outline: 0
+  }
+  
+  .TwitterCard .EdgeButton--secondary:active {
+    background-color: #006DBF;
+    border-color: #006DBF;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #1DA1F2;
+    color: #fff
+  }
+  
+  .TwitterCard .EdgeButton--secondary.disabled,
+  .TwitterCard .EdgeButton--secondary[disabled],
+  .TwitterCard .EdgeButton--secondary[disabled]:hover,
+  .TwitterCard .EdgeButton--secondary[aria-disabled=true] {
+    background-color: transparent;
+    opacity: .3
+  }
+  
+  .TwitterCard .EdgeButton--smallTransparent {
+    background-color: rgba(0, 0, 0, .4);
+    border: 0;
+    color: #fff;
+    padding: .5em 1em;
+    margin-top: .5em;
+    transition: all .4s cubic-bezier(0.25, .46, .45, .94)
+  }
+  
+  .TwitterCard .EdgeButton--smallTransparent[disabled] {
+    cursor: not-allowed
+  }
+  
+  .TwitterCard .EdgeButton--smallTransparent:not([disabled]):hover,
+  .TwitterCard .EdgeButton--smallTransparent:not([disabled]):focus,
+  .TwitterCard .EdgeButton--smallTransparent:not([disabled]):active {
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff
+  }
+  
+  .TwitterCard .EdgeButton--smallTransparent>b.u-linkComplex-target {
+    font-weight: 400
+  }
+  
+  .twitter-hashflag {
+    height: 1.25em;
+    width: 1.25em;
+    padding: 0 .05em 0 .1em;
+    vertical-align: -.2em
+  }
+  
+  .TwitterCard .LiveBroadcastCard[data-image-state=hidden] {
+    border-radius: 0 0 .85714em .85714em
+  }
+  
+  .TwitterCard .LiveBroadcastCard[data-image-state=hidden] .LiveBroadcastCard-image {
+    display: none
+  }
+  
+  .TwitterCard .LiveBroadcastCard[data-image-state=visible] .LiveBroadcastCard-image {
+    display: block
+  }
+  
+  .TwitterCard .LiveBroadcastCard-image {
+    background-color: #E1E8ED;
+    border-style: solid;
+    border-color: inherit;
+    border-width: 0;
+    border-bottom-width: 1px
+  }
+  
+  .TwitterCard .LiveBroadcastCard-contentContainer .SummaryCard-content {
+    padding-left: 1em;
+    padding-right: 1em
+  }
+  
+  .TwitterCard .LiveBroadcastCard-contentContainer .SummaryCard-content p {
+    max-height: 2.6em
+  }
+  
+  .TwitterCard .LiveBroadcastCard-contentContainer:not([data-card-breakpoints~=w300]) .Summary-content p {
+    max-height: 1.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+  
+  .TwitterCard .LiveEventCard[data-image-state=hidden] {
+    border-radius: 0 0 .85714em .85714em
+  }
+  
+  .TwitterCard .LiveEventCard[data-image-state=hidden] .LiveEventCard-image {
+    display: none
+  }
+  
+  .TwitterCard .LiveEventCard[data-image-state=visible] .LiveEventCard-image {
+    display: block
+  }
+  
+  .TwitterCard .LiveEventCard-iconVerified {
+    background-image: url(//ton.twimg.com/tfw/assets/verified_v1_de2dc8d110b03567621d054ebb48770d5fe228c6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 1em;
+    vertical-align: middle;
+    width: 1em
+  }
+  
+  .TwitterCard .LiveEventCard-image {
+    background-color: #E1E8ED;
+    border-style: solid;
+    border-color: inherit;
+    border-width: 0;
+    border-bottom-width: 1px
+  }
+  
+  .TwitterCard .LiveEventCard-contentContainer .SummaryCard-content {
+    padding-left: 1em;
+    padding-right: 1em
+  }
+  
+  .TwitterCard .LiveEventCard-contentContainer .SummaryCard-content p {
+    max-height: 2.6em
+  }
+  
+  .TwitterCard .LiveEventCard-contentContainer:not([data-card-breakpoints~=w300]) .Summary-content p {
+    max-height: 1.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+  
+  .TwitterCard .LiveEventCard .TwitterCard-attribution--avatar {
+    margin-right: .28571em
+  }
+  
+  .TwitterCard .LiveEventCard .TwitterCard-title {
+    font-weight: 400
+  }
+  
+  .TwitterCard .LiveVideoCard[data-state-live=true] .LiveVideoCard-imageContainer {
+    display: none
+  }
+  
+  .TwitterCard .LiveVideoCard[data-state-live=true] .LiveVideoCard-videoContainer {
+    display: block
+  }
+  
+  .TwitterCard .LiveVideoCard[data-state-live=true] .LiveVideoCard-videoContainerClickAreaLeft {
+    cursor: pointer;
+    left: 0;
+    margin-bottom: calc(-1 * (57% - 55px));
+    padding-top: calc(57% - 55px);
+    position: absolute;
+    top: 0;
+    width: 82%
+  }
+  
+  .TwitterCard .LiveVideoCard[data-state-live=true] .LiveVideoCard-videoContainerClickAreaRight {
+    cursor: pointer;
+    margin-bottom: calc(-1 * (57% - 55px));
+    padding-top: calc(57% - 55px);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12%
+  }
+  
+  .TwitterCard .LiveVideoCard[data-state-live=true] .LiveVideoCard-contentContainer--static {
+    display: none
+  }
+  
+  .TwitterCard .LiveVideoCard[data-state-live=true] .LiveVideoCard-contentContainer--video {
+    display: block
+  }
+  
+  .TwitterCard .LiveVideoCard[data-state-live=false] .LiveVideoCard-imageContainer {
+    display: block
+  }
+  
+  .TwitterCard .LiveVideoCard[data-state-live=false] .LiveVideoCard-videoContainer {
+    display: none
+  }
+  
+  .TwitterCard .LiveVideoCard[data-state-live=false] .LiveVideoCard-videoContainerClickAreaLeft {
+    display: none
+  }
+  
+  .TwitterCard .LiveVideoCard[data-state-live=false] .LiveVideoCard-videoContainerClickAreaRight {
+    display: none
+  }
+  
+  .TwitterCard .LiveVideoCard[data-state-live=false] .LiveVideoCard-contentContainer--static {
+    display: block
+  }
+  
+  .TwitterCard .LiveVideoCard[data-state-live=false] .LiveVideoCard-contentContainer--video {
+    display: none
+  }
+  
+  .TwitterCard .LiveVideoCard[data-state-live=false] .TwitterCard-pill {
+    text-transform: none
+  }
+  
+  .TwitterCard .LiveVideoCard[data-playing-ad=true] .TwitterCard-pill {
+    display: none
+  }
+  
+  .TwitterCard .LiveVideoCard[data-playing-ad=false] .TwitterCard-pill {
+    display: block
+  }
+  
+  .TwitterCard .LiveVideoCard-mediaContainer {
+    position: relative
+  }
+  
+  .TwitterCard .LiveVideoCard-videoContainer>.TwitterCardsGrid-col--spacerBottom {
+    margin-bottom: 0
+  }
+  
+  .TwitterCard .LiveVideoCard-videoContainer .AmplifyContainer {
+    background-color: #292F33
+  }
+  
+  .TwitterCard .LiveVideoCard-timer {
+    letter-spacing: .05em
+  }
+  
+  .TwitterCard .LiveVideoCard .EdgeButton--smallTransparent,
+  .TwitterCard .LiveVideoCard .Button--smallTransparent {
+    top: .5em;
+    left: 1em;
+    position: absolute
+  }
+  
+  .TwitterCard .LiveVideoCard-postlive .Button--smallTransparent,
+  .TwitterCard .LiveVideoCard-postlive .Button--smallBlue {
+    display: none
+  }
+  
+  .TwitterCard .LiveVideoCard .SummaryCard-destination {
+    text-transform: none;
+    margin-top: 3px
+  }
+  
+  .TwitterCard .LiveVideoCard.SummaryCard--noImage .SummaryCard-image {
+    background-color: transparent;
+    background-image: linear-gradient(135deg, #1DA1F2, #981CEB);
+    background-position: -50px -50px;
+    background-size: 170% 170%
+  }
+  
+  .TwitterCard .LiveVideoCard.SummaryCard--noImage .SummaryCard-image .tcu-imageContainer {
+    background-image: none
+  }
+  
+  .TwitterCard .LiveVideoCard.SummaryCard--noImage .SummaryCard-image .tcu-imageContainer .tcu-imageWrapper {
+    background-image: none
+  }
+  
+  .TwitterCard .LiveVideoCard.SummaryCard--noImage .SummaryCard-image .tcu-imageContainer:after {
+    background-image: url(//ton.twimg.com/tfw/assets/twitter_v1_3a8f4c25d89a1e20675893c1d64b2c968a9a9f7f.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 1.5em;
+    color: #FFF;
+    content: "Live Stream";
+    display: block;
+    font-size: 1.5em;
+    font-weight: lighter;
+    left: 1em;
+    padding-top: 2em;
+    position: absolute;
+    top: calc(50% - 1.3em)
+  }
+  
+  .TwitterCard .MomentCard {
+    background-color: #FFF
+  }
+  
+  .TwitterCard .MomentCard-cover {
+    border-color: inherit;
+    border-right-width: 1px;
+    border-right-style: solid;
+    box-sizing: border-box
+  }
+  
+  .TwitterCard .MomentCard-content {
+    padding: 1.14286em 1em
+  }
+  
+  .TwitterCard .MomentCard-title .TwitterCard-title {
+    font-size: 1.14286em;
+    line-height: 1.25em;
+    margin-bottom: .35714em;
+    max-height: 2.5em;
+    overflow: hidden
+  }
+  
+  .TwitterCard .MomentCard-title h2 {
+    font-weight: 700
+  }
+  
+  .TwitterCard .MomentCard-subtitle {
+    color: #8899A6;
+    font-size: 1em;
+    font-weight: 400;
+    margin: .57143em 0;
+    position: relative
+  }
+  
+  .TwitterCard .MomentCard-author,
+  .TwitterCard .MomentCard-authorName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+  }
+  
+  .TwitterCard .MomentCard-authorName {
+    color: #292F33;
+    display: inline-block;
+    font-weight: 700;
+    max-width: 60%;
+    vertical-align: middle
+  }
+  
+  .TwitterCard .MomentCard-authorScreenName {
+    vertical-align: middle
+  }
+  
+  .TwitterCard .MomentCard-authorAvatar {
+    border-radius: 2px;
+    height: 1em;
+    margin-right: .21429em;
+    vertical-align: middle;
+    width: 1em
+  }
+  
+  .TwitterCard .MomentCard-description p {
+    color: #8899A6;
+    font-weight: 400;
+    max-height: 6.5em
+  }
+  
+  .TwitterCard .MomentCard-badge {
+    bottom: 1.35714em;
+    color: #8899A6;
+    font-size: 1em;
+    position: absolute
+  }
+  
+  .TwitterCard .MomentCard-badgeText {
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-left: 1.1em
+  }
+  
+  .TwitterCard .MomentCard-iconLightning {
+    background-image: url(//ton.twimg.com/tfw/assets/lightning_backup_v1_3275c7700965edb5fb32ecaec770602c42674edd.png);
+    background-image: url(//ton.twimg.com/tfw/assets/lightning_v1_de331faee24508022200dae98bac0dc01db54f32.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 1px;
+    display: inline-block;
+    height: 1.07143em;
+    position: absolute;
+    width: .57143em
+  }
+  
+  .TwitterCard .MomentCard-iconVerified {
+    background-image: url(//ton.twimg.com/tfw/assets/verified_v1_de2dc8d110b03567621d054ebb48770d5fe228c6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 1em;
+    vertical-align: middle;
+    width: 1em
+  }
+  
+  .TwitterCard .MomentCard--unavailable {
+    background: #E1E8ED;
+    border-radius: .85714em;
+    color: #8899A6;
+    padding: .85714em;
+    text-align: center
+  }
+  
+  .TwitterCard .MomentCard:not([data-card-breakpoints~=w500]) .MomentCard-cover {
+    width: 40%;
+    width: calc(41.66667% - .19444em)
+  }
+  
+  .TwitterCard .MomentCard:not([data-card-breakpoints~=w500]) .MomentCard-contentContainer {
+    width: 57%;
+    width: calc(58.33333% - .13889em)
+  }
+  
+  .TwitterCard .MomentCard:not([data-card-breakpoints~=w500]) .MomentCard-description p {
+    max-height: 2.6em
+  }
+  
+  .TwitterCard .MomentCard:not([data-card-breakpoints~=w450]) .MomentCard-description p {
+    max-height: 1.3em
+  }
+  
+  .TwitterCard .MomentCard:not([data-card-breakpoints~=w400]) .MomentCard-description {
+    display: none!important
+  }
+  
+  .TwitterCard .MomentCard:not([data-card-breakpoints~=w300]) .MomentCard-title .TwitterCard-title,
+  .TwitterCard .MomentCard:not([data-card-breakpoints~=w300]) .MomentCard-subtitle,
+  .TwitterCard .MomentCard:not([data-card-breakpoints~=w300]) .MomentCard-badge {
+    font-size: .92857em
+  }
+  
+  .TwitterCard .MomentCard:not([data-card-breakpoints~=w200]) .TwitterCard-title,
+  .TwitterCard .MomentCard:not([data-card-breakpoints~=w200]) .MomentCard-category {
+    max-height: 1.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+  
+  .TwitterCard .MomentCard.TwitterCardsGrid-rtl .MomentCard-cover {
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-right: 0
+  }
+  
+  .TwitterCard .PlayerCard--clickToLoad {
+    display: none
+  }
+  
+  .TwitterCard .PlayerCard--preview .PlayerCard-playButton {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    background-image: url(//ton.twimg.com/tfw/assets/play_v1_8b695d1e7023e06826dfde859728a2a59b15900f.svg);
+    opacity: .9;
+    transition: all ease-in-out 125ms 25ms
+  }
+  
+  .TwitterCard .PlayerCard--preview .PlayerCard-playButton--Periscope {
+    background-image: url(//ton.twimg.com/tfw/assets/play_v1_8b695d1e7023e06826dfde859728a2a59b15900f.svg);
+    background-size: cover;
+    height: 15%;
+    left: 42.5%;
+    position: absolute;
+    opacity: .9;
+    top: 42.5%;
+    width: 15%
+  }
+  
+  .TwitterCard .PlayerCard--preview .SummaryCard-image {
+    position: relative
+  }
+  
+  .TwitterCard .PlayerCard--preview:hover .PlayerCard-playButton {
+    opacity: 1
+  }
+  
+  .TwitterCard .PlayerCard--video {
+    border-top-left-radius: 0!important;
+    border-top-right-radius: 0!important;
+    cursor: inherit
+  }
+  
+  .TwitterCard .PlayerCard--video .PlayerCard-videoContainer {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: inherit;
+    max-height: 71.11111em;
+    overflow: auto;
+    box-sizing: border-box
+  }
+  
+  .TwitterCard .PlayerCard--video .PlayerCard-videoContainer div:first-child {
+    margin-bottom: 0!important
+  }
+  
+  .TwitterCard .PlayerCard--video .PlayerCard-videoContainer.tcu-imageContainer .FlexEmbed {
+    width: 100%;
+    height: 100%
+  }
+  
+  .TwitterCard .PlayerCard--video .PlayerCard-videoContainer .tcu-imageWrapper {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+  }
+  
+  .TwitterCard .PlayerCard--video .SummaryCard-contentContainer {
+    color: inherit;
+    text-decoration: none
+  }
+  
+  .TwitterCard .PlayerCard--video .SummaryCard-contentContainer:hover,
+  .TwitterCard .PlayerCard--video .SummaryCard-contentContainer:active,
+  .TwitterCard .PlayerCard--video .SummaryCard-contentContainer:focus {
+    color: inherit;
+    text-decoration: none
+  }
+  
+  .TwitterCard .PollXChoice {
+    box-sizing: border-box;
+    transition: all .3s cubic-bezier(0.5, 1.2, .5, 1.2)
+  }
+  
+  .TwitterCard .PollXChoice--noTransitions * {
+    transition: none!important;
+    transition-duration: 0s!important;
+    transition-property: none!important
+  }
+  
+  .TwitterCard .PollXChoice[data-poll-image=true] .tcu-imageWrapper {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .1)
+  }
+  
+  .TwitterCard .PollXChoice[data-poll-image=true] .tcu-imageWrapper:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: ""
+  }
+  
+  .TwitterCard .PollXChoice .PlayerCard--video {
+    border-top-left-radius: .85714em!important;
+    border-top-right-radius: .85714em!important
+  }
+  
+  .TwitterCard .PollXChoice .PlayerCard-videoContainer {
+    border-bottom-width: 0!important
+  }
+  
+  .TwitterCard .PollXChoice-image {
+    background-color: #E1E8ED;
+    cursor: pointer
+  }
+  
+  .TwitterCard .PollXChoice-pollWrapper {
+    position: relative;
+    border-radius: .35714em
+  }
+  
+  .TwitterCard .PollXChoice-optionsWrapper {
+    box-sizing: border-box;
+    padding-left: 4px;
+    padding-right: 4px
+  }
+  
+  .TwitterCard [data-poll-state=closed] .PollXChoice-optionsWrapper,
+  .TwitterCard [data-poll-state=final] .PollXChoice-optionsWrapper {
+    padding-left: 0;
+    padding-right: 0
+  }
+  
+  .TwitterCard [data-poll-image=true] .PollXChoice-optionsWrapper {
+    padding-bottom: 1em;
+    padding-top: 1em
+  }
+  
+  .TwitterCard .PollXChoice-optionContainer {
+    margin-bottom: .57143em;
+    position: relative;
+    box-sizing: border-box
+  }
+  
+  .TwitterCard .PollXChoice[data-theme=dark][data-poll-state=closed] .PollXChoice-optionContainer,
+  .TwitterCard .PollXChoice[data-theme=dark][data-poll-state=final] .PollXChoice-optionContainer {
+    color: #292F33
+  }
+  
+  .TwitterCard [data-poll-vote-majority*="1"] .PollXChoice-optionContainer[data-poll-index="1"] .PollXChoice-choice--chart {
+    background: #77C7F7
+  }
+  
+  .TwitterCard [data-poll-vote-majority*="2"] .PollXChoice-optionContainer[data-poll-index="2"] .PollXChoice-choice--chart {
+    background: #77C7F7
+  }
+  
+  .TwitterCard [data-poll-vote-majority*="3"] .PollXChoice-optionContainer[data-poll-index="3"] .PollXChoice-choice--chart {
+    background: #77C7F7
+  }
+  
+  .TwitterCard [data-poll-vote-majority*="4"] .PollXChoice-optionContainer[data-poll-index="4"] .PollXChoice-choice--chart {
+    background: #77C7F7
+  }
+  
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-progress {
+    display: inline-block;
+    max-width: 100%;
+    margin-left: .64286em;
+    margin-right: .64286em;
+    overflow: hidden;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(0.5, 1.2, .5, 1.2);
+    transition-property: width, margin-left, margin-right
+  }
+  
+  .TwitterCard .TwitterCardsGrid-rtl .PollXChoice-optionContainer .PollXChoice-progress {
+    margin-left: .64286em;
+    margin-right: .64286em
+  }
+  
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-progress span {
+    opacity: 0
+  }
+  
+  .TwitterCard [data-poll-state=opened] .PollXChoice-optionContainer .PollXChoice-progress {
+    max-width: 0;
+    margin-left: -3em;
+    margin-right: 3em
+  }
+  
+  .TwitterCard .TwitterCardsGrid-rtl[data-poll-state=opened] .PollXChoice-optionContainer .PollXChoice-progress {
+    margin-left: 3em;
+    margin-right: -3em
+  }
+  
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    border-radius: .35714em;
+    cursor: inherit;
+    text-overflow: ellipsis;
+    white-space: nowrap
+  }
+  
+  .TwitterCard [data-poll-state=opened] .PollXChoice-optionContainer .PollXChoice-choice:hover {
+    cursor: pointer
+  }
+  
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--selected {
+    width: 0;
+    height: 1em;
+    display: inline-block;
+    transition: width .3s cubic-bezier(0.5, 1.2, .5, 1.2);
+    padding: .14286em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center
+  }
+  
+  .TwitterCard [data-poll-user-choice] .PollXChoice-optionContainer .PollXChoice-choice--selected {
+    width: 1em;
+    margin-left: .64286em
+  }
+  
+  .TwitterCard .TwitterCardsGrid-rtl[data-poll-user-choice] .PollXChoice-optionContainer .PollXChoice-choice--selected {
+    margin-left: 0;
+    margin-right: .64286em
+  }
+  
+  .TwitterCard [data-poll-user-choice="1"] .PollXChoice-optionContainer .PollXChoice-choice--selected[data-poll-index="1"] {
+    background-image: url(//ton.twimg.com/tfw/assets/checkmark_circle_v1_06f15f494d711c69b89c759b68d1fcbbecdca631.svg)
+  }
+  
+  .TwitterCard [data-poll-user-choice="2"] .PollXChoice-optionContainer .PollXChoice-choice--selected[data-poll-index="2"] {
+    background-image: url(//ton.twimg.com/tfw/assets/checkmark_circle_v1_06f15f494d711c69b89c759b68d1fcbbecdca631.svg)
+  }
+  
+  .TwitterCard [data-poll-user-choice="3"] .PollXChoice-optionContainer .PollXChoice-choice--selected[data-poll-index="3"] {
+    background-image: url(//ton.twimg.com/tfw/assets/checkmark_circle_v1_06f15f494d711c69b89c759b68d1fcbbecdca631.svg)
+  }
+  
+  .TwitterCard [data-poll-user-choice="4"] .PollXChoice-optionContainer .PollXChoice-choice--selected[data-poll-index="4"] {
+    background-image: url(//ton.twimg.com/tfw/assets/checkmark_circle_v1_06f15f494d711c69b89c759b68d1fcbbecdca631.svg)
+  }
+  
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
+    background: #E1E8ED;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-top-left-radius: .35714em;
+    border-bottom-left-radius: .35714em;
+    transition: all .3s cubic-bezier(0.5, 1.2, .5, 1.2);
+    opacity: 1
+  }
+  
+  .TwitterCard .TwitterCardsGrid-rtl .PollXChoice-optionContainer .PollXChoice-choice--chart {
+    left: inherit;
+    right: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: .35714em;
+    border-bottom-right-radius: .35714em
+  }
+  
+  .TwitterCard [data-poll-state=opened] .PollXChoice-optionContainer .PollXChoice-choice--chart {
+    opacity: 0
+  }
+  
+  .TwitterCard [data-poll-state=final] .PollXChoice-optionContainer .PollXChoice-choice--chart {
+    border-top-right-radius: .35714em;
+    border-bottom-right-radius: .35714em
+  }
+  
+  .TwitterCard .TwitterCardsGrid-rtl[data-poll-state=final] .PollXChoice-optionContainer .PollXChoice-choice--chart {
+    border-top-left-radius: .35714em;
+    border-bottom-left-radius: .35714em
+  }
+  
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--radio {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #8899A6;
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 1em;
+    vertical-align: middle;
+    margin-right: .64286em;
+    transition: all .3s cubic-bezier(0.5, 1.2, .5, 1.2);
+    background-size: 100%;
+    background-repeat: no-repeat
+  }
+  
+  .TwitterCard .TwitterCardsGrid-rtl .PollXChoice-optionContainer .PollXChoice-choice--radio {
+    margin-right: 0;
+    margin-left: .64286em;
+    margin-top: .14286em
+  }
+  
+  .TwitterCard [data-poll-state=closed] .PollXChoice-optionContainer .PollXChoice-choice--radio,
+  .TwitterCard [data-poll-state=final] .PollXChoice-optionContainer .PollXChoice-choice--radio {
+    width: 0;
+    height: 0;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 0;
+    opacity: 0
+  }
+  
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--input {
+    position: relative;
+    display: none
+  }
+  
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--input:checked+.PollXChoice-choice--radio {
+    border-color: #19CF86;
+    background-image: url(//ton.twimg.com/tfw/assets/checkmark_circle_green_v1_7c9f3050c9f6a85f83ede3cad267976a1633f0cc.svg)
+  }
+  
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--text {
+    position: relative;
+    display: inline-block;
+    padding-top: .28571em;
+    padding-bottom: .28571em
+  }
+  
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--text span {
+    vertical-align: middle
+  }
+  
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--anchor {
+    display: block;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: #292F33;
+    text-decoration: none;
+    outline: 0
+  }
+  
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--anchor:link,
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--anchor:visited,
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--anchor:hover,
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--anchor:active {
+    color: #292F33;
+    text-decoration: none;
+    outline: 0
+  }
+  
+  .TwitterCard .PollXChoice[data-theme=dark] .PollXChoice-optionContainer .PollXChoice-choice--anchor:link,
+  .TwitterCard .PollXChoice[data-theme=dark] .PollXChoice-optionContainer .PollXChoice-choice--anchor:visited,
+  .TwitterCard .PollXChoice[data-theme=dark] .PollXChoice-optionContainer .PollXChoice-choice--anchor:hover,
+  .TwitterCard .PollXChoice[data-theme=dark] .PollXChoice-optionContainer .PollXChoice-choice--anchor:active {
+    color: #FFF
+  }
+  
+  .TwitterCard .PollXChoice-footer {
+    color: #8899A6;
+    clear: both;
+    box-sizing: border-box
+  }
+  
+  .TwitterCard .PollXChoice-footer span {
+    vertical-align: middle
+  }
+  
+  .TwitterCard .PollXChoice-footer .PollXChoice-info {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: -2px -4px 0 -4px;
+    transition: all .3s cubic-bezier(0.5, 1.2, .5, 1.2)
+  }
+  
+  .TwitterCard .PollXChoice-footer .PollXChoice-info span {
+    margin-top: calc(6px + .5em)
+  }
+  
+  .TwitterCard [data-poll-state=closed] .PollXChoice-footer .PollXChoice-info,
+  .TwitterCard [data-poll-state=final] .PollXChoice-footer .PollXChoice-info {
+    margin-left: 0
+  }
+  
+  .TwitterCard .PollXChoice-footer .PollXChoice-info .PollXChoice-vote {
+    display: inline-block;
+    margin-right: .64286em;
+    margin-top: 0;
+    padding: 4px;
+    border: 1px solid transparent;
+    border-radius: .33333em;
+    transition: all .3s cubic-bezier(0.5, 1.2, .5, 1.2)
+  }
+  
+  .TwitterCard .TwitterCardsGrid-rtl .PollXChoice-footer .PollXChoice-info .PollXChoice-vote {
+    margin-left: .64286em;
+    margin-right: 0
+  }
+  
+  .TwitterCard .PollXChoice-footer .PollXChoice-info .PollXChoice-vote:not(.edge-design):active {
+    border-color: #19CF86
+  }
+  
+  .TwitterCard .PollXChoice-footer .PollXChoice-info .PollXChoice-vote button {
+    margin-top: 0!important;
+    outline: 0
+  }
+  
+  .TwitterCard .PollXChoice-footer .PollXChoice-info .PollXChoice-vote a {
+    display: block;
+    position: relative;
+    color: #292F33;
+    text-decoration: none;
+    outline: 0;
+    margin-top: 0
+  }
+  
+  .TwitterCard .PollXChoice-footer .PollXChoice-info .PollXChoice-vote a:link,
+  .TwitterCard .PollXChoice-footer .PollXChoice-info .PollXChoice-vote a:visited,
+  .TwitterCard .PollXChoice-footer .PollXChoice-info .PollXChoice-vote a:hover,
+  .TwitterCard .PollXChoice-footer .PollXChoice-info .PollXChoice-vote a:active {
+    color: #292F33;
+    text-decoration: none;
+    outline: 0
+  }
+  
+  .TwitterCard .PollXChoice[data-theme=dark] .PollXChoice-footer .PollXChoice-info .PollXChoice-vote a {
+    background-color: transparent;
+    background-image: none;
+    border-color: #FFF;
+    color: #FFF
+  }
+  
+  .TwitterCard .PollXChoice[data-theme=dark]:link .PollXChoice-footer .PollXChoice-info .PollXChoice-vote a,
+  .TwitterCard .PollXChoice[data-theme=dark]:visited .PollXChoice-footer .PollXChoice-info .PollXChoice-vote a,
+  .TwitterCard .PollXChoice[data-theme=dark]:hover .PollXChoice-footer .PollXChoice-info .PollXChoice-vote a,
+  .TwitterCard .PollXChoice[data-theme=dark]:active .PollXChoice-footer .PollXChoice-info .PollXChoice-vote a {
+    background-color: rgba(255, 255, 255, .1);
+    background-image: none;
+    border-color: #FFF
+  }
+  
+  .TwitterCard [data-poll-state=closed] .PollXChoice-footer .PollXChoice-info .PollXChoice-vote,
+  .TwitterCard [data-poll-state=final] .PollXChoice-footer .PollXChoice-info .PollXChoice-vote {
+    width: 0;
+    margin-right: 0;
+    margin-left: 0;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: transparent
+  }
+  
+  .TwitterCard [data-poll-state=closed] .PollXChoice-footer .PollXChoice-info .PollXChoice-vote:active,
+  .TwitterCard [data-poll-state=final] .PollXChoice-footer .PollXChoice-info .PollXChoice-vote:active {
+    border-color: transparent
+  }
+  
+  .TwitterCard .SummaryCard-content {
+    padding: .75em;
+    box-sizing: border-box;
+    text-decoration: none
+  }
+  
+  .TwitterCard .SummaryCard-content .TwitterCard-title {
+    max-height: 1.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+  
+  .TwitterCard .SummaryCard-content p {
+    overflow: hidden
+  }
+  
+  .TwitterCard .SummaryCard-content .Button--smallGray,
+  .TwitterCard .SummaryCard-content .Button--smallBlue,
+  .TwitterCard .SummaryCard-content .TwitterCard-pill {
+    margin-top: .5em
+  }
+  
+  .TwitterCard .SummaryCard-destination {
+    text-transform: lowercase;
+    color: #8899A6;
+    max-height: 1.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+  
+  .TwitterCard .SummaryCard--preserveDestinationCase .SummaryCard-destination {
+    text-transform: none
+  }
+  
+  .TwitterCard .SummaryCard-image {
+    background-color: #E1E8ED;
+    border-style: solid;
+    border-color: inherit;
+    border-width: 0
+  }
+  
+  .TwitterCard .SummaryCard-image .tcu-imageWrapper {
+    background-image: url(//ton.twimg.com/tfw/assets/news_stroke_v1_78ce5b21fb24a7c7e528d22fc25bd9f9df7f24e2.svg);
+    background-size: 3em
+  }
+  
+  .TwitterCard .SummaryCard--small .SummaryCard-image {
+    width: 8.81667em;
+    border-right-width: 1px
+  }
+  
+  .TwitterCard .SummaryCard--small.TwitterCardsGrid-rtl .SummaryCard-image {
+    border-left-width: 1px;
+    border-right-width: 0
+  }
+  
+  .TwitterCard .SummaryCard--small .SummaryCard-contentContainer {
+    width: calc(100% - 8.81667em - 2px)
+  }
+  
+  .TwitterCard .SummaryCard--small .SummaryCard-content p {
+    max-height: 3.9em
+  }
+  
+  .TwitterCard .SummaryCard--small:not([data-card-breakpoints~=w400]) .SummaryCard-image {
+    width: 7.51667em;
+    height: 7.51667em
+  }
+  
+  .TwitterCard .SummaryCard--small:not([data-card-breakpoints~=w400]) .SummaryCard-contentContainer {
+    width: calc(100% - 7.51667em - 2px)
+  }
+  
+  .TwitterCard .SummaryCard--small:not([data-card-breakpoints~=w400]) .SummaryCard-content p {
+    max-height: 2.6em
+  }
+  
+  .TwitterCard .SummaryCard--small:not([data-card-breakpoints~=w300]) .SummaryCard-image {
+    width: 6.21667em;
+    height: 6.21667em
+  }
+  
+  .TwitterCard .SummaryCard--small:not([data-card-breakpoints~=w300]) .SummaryCard-contentContainer {
+    width: calc(100% - 6.21667em - 2px)
+  }
+  
+  .TwitterCard .SummaryCard--small:not([data-card-breakpoints~=w300]) .SummaryCard-content p {
+    max-height: 1.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+  
+  .TwitterCard .SummaryCard--medium .TwitterCard-title {
+    white-space: normal;
+    max-height: 2.6em
+  }
+  
+  .TwitterCard .SummaryCard--medium .SummaryCard-image {
+    border-right-width: 1px;
+    box-sizing: border-box
+  }
+  
+  .TwitterCard .SummaryCard--medium .SummaryCard-content p {
+    max-height: 3.9em
+  }
+  
+  .TwitterCard .SummaryCard--medium[data-pe-name] .SummaryCard-content {
+    padding-top: .5em
+  }
+  
+  .TwitterCard .SummaryCard--medium:not([data-card-breakpoints~=w550]) .SummaryCard-content p {
+    max-height: 2.6em
+  }
+  
+  .TwitterCard .SummaryCard--medium:not([data-card-breakpoints~=w500]) .SummaryCard-content .TwitterCard-title {
+    max-height: 1.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+  
+  .TwitterCard .SummaryCard--medium:not([data-card-breakpoints~=w500]) .SummaryCard-content p {
+    max-height: 2.6em
+  }
+  
+  .TwitterCard .SummaryCard--medium:not([data-card-breakpoints~=w450]) .tcu-imageContainer:before {
+    padding-top: 58%
+  }
+  
+  .TwitterCard .SummaryCard--medium:not([data-card-breakpoints~=w450]) .SummaryCard-content .TwitterCard-title {
+    max-height: 1.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+  
+  .TwitterCard .SummaryCard--medium:not([data-card-breakpoints~=w450]) .SummaryCard-content p {
+    max-height: 1.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+  
+  .TwitterCard .SummaryCard--medium:not([data-card-breakpoints~=w300]) .tcu-imageContainer:before {
+    padding-top: 80%
+  }
+  
+  .TwitterCard .SummaryCard--medium:not([data-card-breakpoints~=w300]) .SummaryCard-content .TwitterCard-title {
+    white-space: normal;
+    max-height: 2.6em
+  }
+  
+  .TwitterCard .SummaryCard--medium:not([data-card-breakpoints~=w300]) .SummaryCard-content p {
+    display: none
+  }
+  
+  .TwitterCard .SummaryCard--large[data-pe-name] .TwitterCard-title {
+    white-space: normal;
+    max-height: 2.6em;
+    padding-right: 1em
+  }
+  
+  .TwitterCard .SummaryCard--large .SummaryCard-image {
+    border-bottom-width: 1px
+  }
+  
+  .TwitterCard .SummaryCard--large .SummaryCard-content {
+    padding-left: 1em;
+    padding-right: 1em
+  }
+  
+  .TwitterCard .SummaryCard--large .SummaryCard-content p {
+    max-height: 2.6em
+  }
+  
+  .TwitterCard .SummaryCard--large .SummaryCard-content .Button--smallGray,
+  .TwitterCard .SummaryCard--large .SummaryCard-content .Button--smallBlue,
+  .TwitterCard .SummaryCard--large .SummaryCard-content .EdgeButton,
+  .TwitterCard .SummaryCard--large .SummaryCard-content .TwitterCard-pill {
+    margin-top: .25em
+  }
+  
+  .TwitterCard .SummaryCard--large:not([data-card-breakpoints~=w300]) .SummaryCard-content p {
+    max-height: 1.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+  
+  .TwitterCard[data-theme=night-mode] {
+    color: #FFF
+  }
+  
+  .TwitterCard[data-theme=night-mode] .TwitterCard-title {
+    color: #FFF
+  }
+  
+  .TwitterCard[data-theme=night-mode] .TwitterCard-container {
+    border-color: #38444D
+  }
+  
+  .TwitterCard[data-theme=night-mode] .TwitterCard-container--clickable:hover {
+    background-color: transparent;
+    border-color: #8899A6
+  }
+  
+  .TwitterCard[data-theme=night-mode] .TwitterCard-pill--dark {
+    background-color: #000
+  }
+  
+  .TwitterCard[data-theme=night-mode] .SummaryCard-content {
+    color: #FFF
+  }
+  
+  .TwitterCard[data-theme=night-mode] .SummaryCard-destination {
+    color: #8899A6
+  }
+  
+  .TwitterCard[data-theme=night-mode] .SummaryCard-image {
+    background-color: transparent
+  }
+  
+  .TwitterCard[data-theme=night-mode] .Button--smallGray {
+    background-color: transparent;
+    background-image: none;
+    border-color: #8899A6;
+    color: #FFF
+  }
+  
+  .TwitterCard[data-theme=night-mode] .Button--smallGray:hover {
+    background-color: transparent;
+    background-image: none;
+    border-color: #FFF;
+    color: #FFF
+  }
+  
+  .TwitterCard[data-theme=night-mode] .MomentCard {
+    background-color: transparent
+  }
+  
+  .TwitterCard[data-theme=night-mode] .MomentCard-authorName {
+    color: #FFF
+  }
+  
+  .TwitterCard[data-theme=night-mode] .PollXChoice {
+    color: #FFF
+  }
+  
+  .TwitterCard[data-theme=night-mode] .PollXChoice-choice--chart {
+    background-color: #8899A6
+  }
+  
+  .TwitterCard[data-theme=night-mode] .PollXChoice[data-poll-vote-majority="1"] .PollXChoice-optionContainer[data-poll-index="1"] .PollXChoice-choice--chart,
+  .TwitterCard[data-theme=night-mode] .PollXChoice[data-poll-vote-majority="2"] .PollXChoice-optionContainer[data-poll-index="2"] .PollXChoice-choice--chart,
+  .TwitterCard[data-theme=night-mode] .PollXChoice[data-poll-vote-majority="3"] .PollXChoice-optionContainer[data-poll-index="3"] .PollXChoice-choice--chart,
+  .TwitterCard[data-theme=night-mode] .PollXChoice[data-poll-vote-majority="4"] .PollXChoice-optionContainer[data-poll-index="4"] .PollXChoice-choice--chart {
+    background: #1DA1F2
+  }
+  
+  .TwitterCard .MessageMeCard-content {
+    padding: .35714em 0;
+    font-size: 1.28571em
+  }
+  
+  .TwitterCard .MessageMeCard-container {
+    box-sizing: border-box;
+    margin: .35714em
+  }
+  
+  .TwitterCard .PromotionCardForward--UnifiedPadding {
+    padding: .75em;
+    box-sizing: border-box
+  }
+  
+  .TwitterCard .PromotionCardForward--Image {
+    border-radius: 12px
+  }
+  
+  .TwitterCard .PromotionCardForward--Title {
+    color: #0084b4
+  }
+  
+  .TwitterCard .PromotionCardForward--Button {
+    font-size: .928em
+  }
+  
+  .TwitterCard .PromotionCardForward--Button .Button--smallGray {
+    margin-top: 0
+  }
+  
+  .TwitterCard .PromotionCardFull .hidden-form {
+    display: none
+  }
+  
+  .TwitterCard .PromotionCardFull--Button,
+  .TwitterCard .PromotionCardFull--ButtonV2 {
+    text-decoration: none;
+    font-size: .928em;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.667em;
+    padding: .285em 0;
+    color: #fff;
+    background-color: #55acee;
+    border: 1px solid #bbb;
+    border-radius: .333em;
+    border-color: #3b88c3;
+    cursor: pointer;
+    display: block;
+    box-sizing: border-box
+  }
+  
+  .TwitterCard .PromotionCardFull--Button:hover,
+  .TwitterCard .PromotionCardFull--ButtonV2:hover {
+    background-color: #55acee;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, .15));
+    color: #fff;
+    text-decoration: none
+  }
+  
+  .TwitterCard .PromotionCardFull--Button:active,
+  .TwitterCard .PromotionCardFull--ButtonV2:active {
+    background-color: #3b88c3;
+    color: #fff;
+    text-decoration: none
+  }
+  
+  .TwitterCard .PromotionCardFull--ButtonV2 {
+    display: inline-block;
+    padding: 8px 10px;
+    box-sizing: inherit
+  }
+  
+  .TwitterCard .PromotionCardFull--HintText {
+    font-size: .857em
+  }
+  
+  .TwitterCard .PromotionCardFull--UserInfo {
+    font-size: .857em;
+    padding: .666em 0 .833em;
+    border-top: 1px #ddd solid;
+    border-bottom: 1px #ddd solid;
+    line-height: 1.167em;
+    text-overflow: ellipsis
+  }
+  
+  .TwitterCard .PromotionCardFull--UserInfo-avatar {
+    max-width: 97%;
+    max-width: calc(100% - 1em);
+    border-radius: .333em
+  }
+  
+  .TwitterCard .PromotionCardFull--UserInfo-screenname {
+    color: #888;
+    padding: 0 0 .666em
+  }
+  
+  .TwitterCard .PromotionCardFull--PrivacyPolicy {
+    font-size: .857em;
+    padding: 2em 0 .5em;
+    color: #0084b4
+  }
+  
+  .TwitterCard .PromotionCardFull--SuccessMessage {
+    padding: .714em 0;
+    line-height: 1.667em
+  }
+  
+  .TwitterCard .PromotionCardFull--ErrorMessage {
+    padding: .714em;
+    margin: .714em 0;
+    border-radius: .333em;
+    color: #ab2920;
+    background: #fcf2f1
+  }
+  
+  .TwitterCard .PromotionCardFull--FieldContainer {
+    display: inline-block;
+    width: 75%;
+    margin-left: 15%
+  }
+  
+  .TwitterCard .PromotionCardFull--Field {
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #e1e8ed
+  }
+  
+  .TwitterCard .PromotionCardFull--Input[data-status=error]:not(:focus) {
+    border: 1px solid #be1931
+  }
+  
+  .TwitterCard .PromotionCardFull--ZipcodeTooltip {
+    display: none;
+    margin-left: 10px
+  }
+  
+  .TwitterCard .PromotionCardFull--ZipcodeTooltip[data-status=error] {
+    display: block;
+    color: #be1931
+  }
+  
+  .TwitterCard .PromotionCardFull--StatusMark {
+    display: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.71429em 1.71429em;
+    width: 1.71429em;
+    height: 1.71429em
+  }
+  
+  .TwitterCard .PromotionCardFull--StatusMark[data-status=ok] {
+    display: inline-block;
+    background-image: url(https://ton.twimg.com/tfw/assets/checkmark_backup_v1_3be6e75c5ad32ddd14adc87e66a482b8137729f1.png);
+    background-image: url(https://ton.twimg.com/tfw/assets/checkmark_v1_f035201e7651576c3fd770f509c1cad8ce665663.svg)
+  }
+  
+  .TwitterCard .PromotionCardFull .promo-title {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px
+  }
+  
+  .TwitterCard .PromotionCardFull a.promo-title {
+    text-decoration: none
+  }
+  
+  .TwitterCard .PromotionCardFull .promo-title a:hover,
+  .TwitterCard .PromotionCardFull .promo-title a:focus,
+  .TwitterCard .PromotionCardFull .promo-title a:visited,
+  .TwitterCard .PromotionCardFull .promo-title a:active {
+    color: #333
+  }
+  
+  .TwitterCard .PromotionCardFull .promo-title a:hover,
+  .TwitterCard .PromotionCardFull .promo-title a:focus {
+    text-decoration: underline
+  }
+  
+  .TwitterCard .PromotionCardFull .promo-title a:hover,
+  .TwitterCard .PromotionCardFull .promo-title a:active {
+    outline: 0
+  }
+  
+  .TwitterCard .PromotionCardFull .redirect-message {
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 0
+  }
+  
+  .TwitterCard .PromotionCardFull .redirect-message .error {
+    font-size: 24px;
+    margin-bottom: 24px;
+    margin-top: 30px
+  }
+  
+  .TwitterCard .PromotionCardFull .redirect-error-message {
+    padding: 10px
+  }
+  
+  .TwitterCard .PromotionCardFull .promo-card-error {
+    padding-top: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333
+  }
+  
+  .TwitterCard .PromotionCardFull .promo-card-error a {
+    color: #0084b4;
+    text-decoration: none
+  }
+  
+  .TwitterCard .PromotionCardFull .promo-card-error a:hover,
+  .TwitterCard .PromotionCardFull .promo-card-error a:focus,
+  .TwitterCard .PromotionCardFull .promo-card-error a:visited,
+  .TwitterCard .PromotionCardFull .promo-card-error a:active {
+    color: #0084b4
+  }
+  
+  .TwitterCard .PromotionCardFull .error-padding {
+    height: 10px
+  }
+  
+  .TwitterCard .ConvoCard-choice {
+    box-sizing: border-box
+  }
+  
+  .TwitterCard .ConvoCard-choice button {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+  }
+  
+  .TwitterCard .ConvoCard-choice:not(:first-child) {
+    padding-left: .1em
+  }
+  
+  .TwitterCard .ConvoCard-choice:not(:last-child) {
+    padding-right: .1em
+  }
+  
+  .TwitterCard .ConvoCard-title {
+    padding-left: .33333em
+  }
+  
+  .TwitterCard .ConvoCard-video>div,
+  .TwitterCard .ConvoCard-unlockCover--video>div {
+    margin-bottom: 0
+  }
+  
+  .TwitterCard .ConvoCard--hidden {
+    display: none
+  }
+  
+  .TwitterCard .DMCard-content {
+    padding: .25em 1.14286em 1.14286em
+  }
+  
+  .TwitterCard .DMCard-choice {
+    box-sizing: border-box
+  }
+  
+  .TwitterCard .DMCard-choice:not(:first-child) {
+    padding-left: .125em
+  }
+  
+  .TwitterCard .DMCard-choice:not(:last-child) {
+    padding-right: .125em
+  }
+  
+  .TwitterCard .DMCard-cta {
+    font-size: 1em;
+    unicode-bidi: embed
+  }
+  
+  .TwitterCard .DMCard-cta[dir=rtl] {
+    direction: rtl
+  }
+  
+  .TwitterCard .DMCard-ctaChoiceRow {
+    margin-top: .25em
+  }
+  
+  .TwitterCard .DMCard-ctaChoiceRow:first-child {
+    padding-top: .32143em
+  }
+  
+  .TwitterCard .DMCard-avatar {
+    height: 1.42857em;
+    margin-right: 2px;
+    width: 1.42857em
+  }
+  
+  .TwitterCard .DMCard-avatar .EdgeAvatar {
+    border-radius: 1.42857em
+  }
+  
+  .TwitterCard .DMCard-media {
+    border-bottom: inherit
+  }
+  
+  .TwitterCard .DMCard-media>.TwitterCardsGrid-col--spacerBottom {
+    margin-bottom: 0
+  }
+  
+  .TwitterCard .DMCard-dmIcon:before {
+    background: currentColor;
+    content: "";
+    display: inline-block;
+    height: 1.1em;
+    margin-bottom: 2px;
+    mask: url(//ton.twimg.com/tfw/assets/dm_icon_v1_d2822c693ab6d1a2a6d308f3644acd73e69f9e4a.svg) no-repeat 50% 50%;
+    mask-size: cover;
+    vertical-align: middle;
+    width: 1.1em;
+    -webkit-mask: url(//ton.twimg.com/tfw/assets/dm_icon_v1_d2822c693ab6d1a2a6d308f3644acd73e69f9e4a.svg) no-repeat 50% 50%;
+    -webkit-mask-size: cover
+  }
+  
+  .TwitterCard .DMCard-dmIcon[dir=rtl]:before {
+    margin-left: 4px
+  }
+  
+  .TwitterCard .DMCard-dmIcon[dir=ltr]:before {
+    margin-right: 4px
+  }
+  }
